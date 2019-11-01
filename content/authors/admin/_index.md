@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ingenierio en Computación
+role: Autor
 
 # Organizations/Affiliations
 organizations:
