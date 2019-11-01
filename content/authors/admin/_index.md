@@ -10,12 +10,14 @@ authors:
 superuser: true
 
 # Role/position
-role: Ingenierio, Magister en TI, Ejecvutivo, Emprendedor
+role: Ingenierio en Computación
 
 # Organizations/Affiliations
 organizations:
 - name: La Naturaleza del Software
   url: "https://www.lnds.net/"
+- name: La Sombra de Dijkstra
+  url: "https://www.programando.org"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Ingeniero, autor, emprendedor y ejecutivo chileno. Apasioando programador.
