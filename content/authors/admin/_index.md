@@ -27,13 +27,13 @@ intereses:
 - Ingeniería de Software
 - DevOps
 
-education:
-  courses:
-  - course: Magister en Tecnología de Información
-    institution: Universidad de Chile
-    year: 2019
-  - course: Ingenierio Civil en Computación
-    institution: Universidad de Chile
+#education:
+#  courses:
+#  - course: Magister en Tecnología de Información
+#    institution: Universidad de Chile
+#    year: 2019
+#  - course: Ingenierio Civil en Computación
+#    institution: Universidad de Chile
  
 
 # Social/Academic Networking
