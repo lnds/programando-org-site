@@ -65,3 +65,5 @@ user_groups:
 ---
 
 La Sombra de Dijsktra es un sitio para discutir sobre el árte y la práctica de la programación. Escrito por el mismo autor del Blog "La Naturaleza del Software", este sitio se especializa en el aspecto más técnico del desarrollo de software.
+
+El nombre es un homenaje a Edgser Dijkstra, famoso investigador y teórico de la ciencia de la computación. Premio Turing en 1992, puedes leer más sobre él en [esta entrada en wikipedia](https://es.wikipedia.org/wiki/Edsger_Dijkstra)
