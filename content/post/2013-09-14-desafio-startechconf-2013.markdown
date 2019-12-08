@@ -10,7 +10,7 @@ En esta oportunidad les presento dos desafíos que hemos preparado en conjunto c
 
 Esta vez queremos desafiar los conocimientos profundos que tengan de css y javascript. Pero, lo mejor es que estos desafíos tienen como premio una entrada a la StarTechConf 2013 cada uno. Esta conferencia se realizará en Santiago de Chile entre el 25 y 26 de octubre de este año.
 
-{% img center /blog/images/2013/09/logo_startechconf_2013.png %}
+![](/images/2013/09/logo_startechconf_2013.png)
 
 <!-- more -->
 
@@ -20,7 +20,7 @@ Así que entremos en materia.
 
 El taijitu, o símbolo tradicional del Tao es la representación tradicional del Taiji, o la dualidad del Yin y el Yang, que representan los dos principios opuestos, pero complementarios de esta filosofía oriental, por ejemplo, la luz y la oscuridad, lo femenino y lo masculino, el frio y calor, el dolor y la felicidad, el frontend y backend, el dev y el ops, etc. ;-)
 
-{% img center http://www.akarru.org/blog/wp-content/uploads/2011/09/yin-yang.png 320 %}
+![](/images/2013/09/yin-yang.png)
 
 El objetivo de este desafío es **¡dibujar el diagrama del Yin Yang usando solamente CSS!** 
 
@@ -76,7 +76,7 @@ Los colores posibles son: "white", "black", "red", "green", "blue", "yellow" y "
 
 Un dibujo se expresa como un objeto JSON que contiene estas instrucciones.
 
-En este caso ganará la solución que tenga el menor valor de T ("Tiempo de Entendimiento") de acuerdo a las [Métricas de Halstead](http://www.programando.org/blog/2013/01/desafio-enero-las-metricas-de-halstead/) (ver este post: [http://www.programando.org/blog/2013/01/desafio-enero-las-metricas-de-halstead/](http://www.programando.org/blog/2013/01/desafio-enero-las-metricas-de-halstead/)), el 30 de septiembre  publicaré el programa que calculará este parámetro para javascript, con lo que podrán evaluar su código.
+En este caso ganará la solución que tenga el menor valor de T ("Tiempo de Entendimiento") de acuerdo a las [Métricas de Halstead](https://www.programando.org/blog/2013/01/10/desafio-enero-las-metricas-de-halstead.html) (ver este post: [https://www.programando.org/blog/2013/01/10/desafio-enero-las-metricas-de-halstead.html](https://www.programando.org/blog/2013/01/10/desafio-enero-las-metricas-de-halstead.html)), el 30 de septiembre  publicaré el programa que calculará este parámetro para javascript, con lo que podrán evaluar su código.
 
 Deben colocar su solución en algún repositorio público, como GitHub, Bitbucket, JSFIddle, o Pastebin. Lo importante es que dejen la url con su solución como un comentario a este post.
 
