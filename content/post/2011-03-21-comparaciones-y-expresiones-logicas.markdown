@@ -19,8 +19,6 @@ tags:
 Bien, espero que hayan estado experimentando con IDLE, el ambiente interactivo de Python. 
 Volvamos a él y hagamos algunos experimentos.
 
-
-    
     
     >>> n = 10
     >>> n
@@ -205,14 +203,12 @@ Por otro lado, d == False y (a-b) == -2 y -2 * False == -2 * 0 == 0.
 
 Ahora vienen los ejercicios, hazlos  y experimenta que pasa con todos ellos.
 
-Ejercicios:
+## Ejercicios
 
 En los siguientes ejercicios coloqué las instrucciones que debes ingresar en la consola de IDLE, debajo de cada una puse el símbolo ????? para indicar que tú debes averiguar cuál es el resultado de esa operación.
 
-1. ¿Qué pasa cuando ingresas las siguientes expresiones en IDLE?:
+1) ¿Qué pasa cuando ingresas las siguientes expresiones en IDLE?:
 
-    
-    
     >>> 2 + 3 < 2 * 3 or 6 < 10
     ?????
     >>> (2+3 < 2) * (3 or 6 < 10)
@@ -223,11 +219,9 @@ En los siguientes ejercicios coloqué las instrucciones que debes ingresar en la
     ?????
     >>> a * b
     ?????
-    
 
 
-
-2. Prueba todas las combinaciones que siguen y anótalas en una tabla:
+2) Prueba todas las combinaciones que siguen y anótalas en una tabla:
 
     
     
@@ -244,7 +238,7 @@ En los siguientes ejercicios coloqué las instrucciones que debes ingresar en la
 
 
 
-3. Prueba todas las combinaciones que siguen y anótalas en una tabla:
+3) Prueba todas las combinaciones que siguen y anótalas en una tabla:
 
     
     
@@ -260,11 +254,11 @@ En los siguientes ejercicios coloqué las instrucciones que debes ingresar en la
 
 
 
-4. ¿Qué pasa si hace False < True o True >= False?
+4) ¿Qué pasa si hace False < True o True >= False?
 
-5. ¿Qué pasa cuando comparas False con distintos números? ¿y cuando comparas True con distintos números?
+5) ¿Qué pasa cuando comparas False con distintos números? ¿y cuando comparas True con distintos números?
 
-6. En la lección anterior aprendimos que hay números enteros y números reales. Los números enteros en python pertenecen a una clase de números llamada **int**, los números reales pertenecen a otra clase de números llamada **float**. True y False pertenecen a la clase **bool**. Para determinar la clase de un número o variable se usa la función **type()**, úsala en  los siguientes experimentos:
+6) En la lección anterior aprendimos que hay números enteros y números reales. Los números enteros en python pertenecen a una clase de números llamada **int**, los números reales pertenecen a otra clase de números llamada **float**. True y False pertenecen a la clase **bool**. Para determinar la clase de un número o variable se usa la función **type()**, úsala en  los siguientes experimentos:
 
 
     
@@ -283,7 +277,7 @@ En los siguientes ejercicios coloqué las instrucciones que debes ingresar en la
 
 El resultado de la función type(expresión) es conocida como el tipo de la expresión.
 
-7. Prueba estas expresiones
+7) Prueba estas expresiones
 
     
     
@@ -297,7 +291,7 @@ El resultado de la función type(expresión) es conocida como el tipo de la expr
 
 
 
-8. Una forma alternativa de probar el tipo de una expresión es usando el operador 'is'. Prueba estas expresiones:
+8) Una forma alternativa de probar el tipo de una expresión es usando el operador 'is'. Prueba estas expresiones:
 
 
     

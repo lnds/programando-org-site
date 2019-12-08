@@ -12,6 +12,7 @@ tags:
 - python
 - strings
 - texto
+- curso
 ---
 
 Los 140 caracteres que usas para escribir un tweet, el texto que escribes en tu estado en facebook, un mensaje de texto enviado desde tu teléfono móvil, un correo elestrónico, el texto de este post, una novela, una entrada en wikipedia, este mismo párrafo, todos esos son cadenas de caracteres. A una cadena de texto los programadores las llamamos **string**. Cada uno de los elementos de la cadena es un carácter.
@@ -136,9 +137,11 @@ Existe un string especial, es el **string vacío**, que no tienen caracteres, se
 
 
 
-Bien, todo esto es muy interesante, pero  es tu turno de explorar. La mejor forma de aprender a programar es practicando, así que haz los siguientes ejercicios:
+Bien, todo esto es muy interesante, pero  es tu turno de explorar. La mejor forma de aprender a programar es practicando, así que haz los siguientes ejercicios.
 
-1. Escribe distintos strings y asígnalos a variables, luego concaténalos entre sí, prueba acumulando strings. Puedes partir con estos ejemplos:
+## Ejercicios
+
+1) Escribe distintos strings y asígnalos a variables, luego concaténalos entre sí, prueba acumulando strings. Puedes partir con estos ejemplos:
 
     
     
@@ -150,7 +153,7 @@ Bien, todo esto es muy interesante, pero  es tu turno de explorar. La mejor form
 
 
 
-2. Prueba expresiones de comparación entre strings, por ejemplo:
+2) Prueba expresiones de comparación entre strings, por ejemplo:
 
     
     
@@ -168,7 +171,7 @@ Bien, todo esto es muy interesante, pero  es tu turno de explorar. La mejor form
 
 
 
-3. ¿Qué pasa si concatenas strings con números?
+3) ¿Qué pasa si concatenas strings con números?
 
 
     
@@ -196,7 +199,7 @@ Luego prueba con lo siguiente:
 
 ¿Qué puedes concluir que hace la función str()?
 
-4. ¿Que ocurre al ejecutar estas instrucciones?
+4) ¿Que ocurre al ejecutar estas instrucciones?
 
 
     
@@ -211,6 +214,6 @@ Luego prueba con lo siguiente:
 
 
 
-5. ¿Qué pasa cuando usas indices negativos? Ejemplo: 'PYTHON'[-1]. Prueba omitiendo parte del rango, por ejemplo, 'PYTHON'[3:] o 'PYTHON'[:3]
+5) ¿Qué pasa cuando usas indices negativos? Ejemplo: 'PYTHON'[-1]. Prueba omitiendo parte del rango, por ejemplo, 'PYTHON'[3:] o 'PYTHON'[:3]
 
 
