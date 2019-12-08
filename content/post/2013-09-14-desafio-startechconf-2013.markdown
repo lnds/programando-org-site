@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desafío StarTechConf 2013"
-date: 2013-09-14 12:48
+date: 2013-09-14 12:48:00
 comments: true
 categories: 
 ---

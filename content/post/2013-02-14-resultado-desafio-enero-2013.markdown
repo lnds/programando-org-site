@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resultado desafío Enero 2013"
-date: 2013-02-14 17:25
+date: 2013-02-14 17:25:00
 comments: true
 categories: 
 - Coding Dojo

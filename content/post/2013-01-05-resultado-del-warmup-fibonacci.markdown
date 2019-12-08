@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resultado del Warmup Fibonacci"
-date: 2013-01-05 14:56
+date: 2013-01-05 14:56:00
 comments: true
 categories: 
 - Coding Dojo

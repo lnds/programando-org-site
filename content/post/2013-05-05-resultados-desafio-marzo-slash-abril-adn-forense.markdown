@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resultados Desafío Marzo/Abril - ADN Forense"
-date: 2013-05-05 12:56
+date: 2013-05-05 12:56:00
 comments: true
 categories: 
 - Coding Dojo

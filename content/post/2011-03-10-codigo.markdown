@@ -17,7 +17,7 @@ tags:
 Tienes unos 10 años y tu mejor amigo vive a unos pocos metros de distancia tuya, su ventana y la tuya se enfrentan, así que en la noche puedes conversar con él, hasta que los padres avisan que hay que "apagar la luz y acostarse".
 ¡Qué lata! No sería genial tener una manera ideal de comunicarse con tu amigo? Bueno, hoy en día los chicos de esa edad tienen un teléfono móvil, pero no muchos padres les permiten gastarse mucho dinero en mensajes SMS, pero imaginen que estamos hablando de chicos de hace unos años atrás, de esos que tenían que ingeniárselas para seguir conversando con sus amiguitos en la noche. Una forma de hacerlo es con linternas.
 
-![](http://www.programando.org/blog/wp-content/uploads/2011/03/Linterna-300x203.jpg)
+![](/images/2011/03/Linterna-300x203.jpg)
 
 A los 10 años ya sabes escribir, así que un modo de hacerlo es dibujando las letras en el aire con la linterna. Un círculo grande para la O, una raya vertical para la I, dibujas la L trazando una raya hacia abajo y otra hacia la derecha. Pero este sistema tiene un problema, al poco rato te das cuenta que es muy difícil de seguir. Pero seguramente has visto en alguna película, o sabes que los marinos usan unos faros, en que prenden y apagan las luces para dar señales. Se puede armar un alfabeto, si prendes y apagas la linterna una vez entonces tienes una A, si prendes y apagas 2 veces tienes una B, la C son 3 destellos de tu linterna, 4 destellos la D, y así, hasta la Z que serían 27 destellos. Tienes que hacer una pausa entre letra y letra, y una pausa más larga entre palabras. De este modo, si quieres decir "HOLA AMIGO COMO ESTAS" vas a necesitar 198 destellos (sin incluir ningún signo de puntuación, que hemos olvidado incluir en nuestra tabla).
 

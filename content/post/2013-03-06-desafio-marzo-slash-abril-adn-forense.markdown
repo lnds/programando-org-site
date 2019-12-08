@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desafio Marzo/Abril ADN Forense"
-date: 2013-03-06 21:59
+date: 2013-03-06 21:59:00
 comments: true
 categories: 
 - Coding Dojo

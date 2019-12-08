@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desafío Junio - Código de Máquina"
-date: 2013-06-01 16:07
+date: 2013-06-01 16:07:00
 comments: true
 categories: 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Probando Frameworks Web"
-date: 2013-05-21 11:51
+date: 2013-05-21 11:51:00
 comments: true
 categories: 
 ---

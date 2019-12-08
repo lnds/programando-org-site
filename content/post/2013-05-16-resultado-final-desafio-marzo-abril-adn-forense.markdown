@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resultado Final Desafío Marzo Abril - ADN Forense"
-date: 2013-05-16 00:38
+date: 2013-05-16 00:38:00
 comments: true
 categories: 
 ---
