@@ -27,19 +27,19 @@ Se puede invocar IDLE directamente desde el menú del sistema operativo.
 
 En Ubuntu:
 
-[caption id="attachment_67" align="aligncenter" width="300" caption="Invocando IDLE en Ubuntu (click para agrandar)"][![](http://www.programando.org/blog/wp-content/uploads/2011/03/IDLE-3-Linux-300x178.png)](http://www.programando.org/blog/wp-content/uploads/2011/03/IDLE-3-Linux.png)[/caption]
+[![](/images/2011/03/IDLE-3-Linux-300x178.png)](/images/2011/03/IDLE-3-Linux.png)
 
 En Windows 7:
 
-[caption id="attachment_68" align="aligncenter" width="300" caption="Invocando IDLE Windows 7 (click para agrandar)"][![](http://www.programando.org/blog/wp-content/uploads/2011/03/IDLE-3-Win7-300x178.png)](http://www.programando.org/blog/wp-content/uploads/2011/03/IDLE-3-Win7.png)[/caption]
+[![](/images/2011/03/IDLE-3-Win7-300x178.png)](/images/2011/03/IDLE-3-Win7.png)
 
-Bien, IDLE provee una **consola **en blanco, en las primera linea nos muestra información sobre la versión de python disponible.
+Bien, IDLE provee una **consola** en blanco, en las primera linea nos muestra información sobre la versión de python disponible.
 
 En mi ambiente linux  sale lo siguiente:
 
-Python 3.1.2 (release31-maint, Sep 17 2010, 20:34:23) 
+    Python 3.1.2 (release31-maint, Sep 17 2010, 20:34:23) 
 
-    
+        
     [GCC 4.4.5] on linux2
     Type "copyright", "credits" or "license()" for more information.
     ==== No Subprocess ====
@@ -60,32 +60,22 @@ Python como calculadora.
 
 Ahora vamos a usar este ambiente IDLE como una calculadora.
 
-![](http://www.programando.org/blog/wp-content/uploads/2011/03/799px-Enter-150x150.png)
+![](/images/2011/03/799px-Enter-150x150.png)
 
 Escribe 2 + 2 después del prompt y luego presiona la tecla enter (la que aparece destacada en la imagen).
 
-
->>> 2+2
-
-
-
+    >>> 2+2
 
 Si todo sale bien tu pantalla se verá así:
 
-
-
-
->>> 2 + 2
-4
->>>
+    >>> 2 + 2
+    4
+    >>>
 
 
 IDLE ejecuta la **expresión** que viene después del prompt y entrega el resultado en la linea siguiente. Si recuerdas al principio decíamos que un programa procesa una entrada (INPUT) para producir una salida (OUTPUT), pues bien, IDLE es un programa que procesa las entradas que corresponden a los comandos que ingresamos después del prompt (>>>) y entrega la salida a continuación, que en este caso es el resultado de convertir esos comandos a **expresiones python**.
 
 Probemos otras expresiones:
-
-
-    
     
     >>> 2 * 3
     6
@@ -97,50 +87,30 @@ Probemos otras expresiones:
     14
     
 
-
-
-
-
-
-
-
 A estas alturas ya debería haber descubierto que el signo '*' (asterisco) corresponde a la multiplicación, a diferencia de la notación matemática en que se usa una x o un punto ('.').
 
 La razón por la que no se usa el punto para multiplicar es simple, el punto se usa para designar los decimales:
 
-
-    
-    
     >>> 2 * 3.1415
     6.283
     >>> 2000 * 3.1415
     6283.0
     
 
-
-
 Fíjense 2 cosas, los números por sobre el mil no se separan con ningún caracter especial (como el punto, o la coma), es decir, "un millón quinientos mil cuatrocientos treinta y dos con veintitres centésimos" se escribe "1500432.23".
 
 La segunda cosa es más sutil, pero más importante, cuando multiplicamos por un número con decimales el resultado aparece siempre expresado cómo un numero con decimales (es decir, lleva el punto '.').
+
 Veamos:
-
-
-    
     
     >>> 2 * 3
     6
     >>> 2 * 3.0
     6.0
     
-
-
-
 En el primer caso tenemos dos **números enteros** y el resultado es otro número entero. En el segundo caso tenemos un número entero multiplicado por un **número real** y el resultado es un número real.
 
 Veamos la división:
-
-
-    
     
     >>> 2 / 3
     0.6666666666666666
@@ -148,35 +118,27 @@ Veamos la división:
     3.0
     
 
-
-
 Fíjense en este caso, el resultado de 2/3 es un número real y aparece como tal, lo que está bien, pero en el caso de 12 / 4, tenemos 2 números enteros y sabemos que el resultado es un número entero, pero python entrega cómo resultado un número real. La razón es que python tiene 2 tipos de divisiones, la división real que se expresa con el símbolo '/' y la división entera que se expresa con el símbolo '//'.
-
-
-    
     
     >>> 2 // 3
     0
     >>> 12 // 4
     3
-    
-
 
 
 La división entera trunca el resultado "redondeando hacia abajo". Hay otros detalles con la división, pero los vamos a dejar para que los averigüen en los ejercicios.
 
 A los símbolos +, /, // y * los llamamos **operadores**.
 
-[![](http://www.programando.org/blog/wp-content/uploads/2011/03/calculadora.jpg)](http://www.programando.org/blog/wp-content/uploads/2011/03/calculadora.jpg)Toda calculadora decente tiene una o más teclas con una  M, se le llama  la memoria, y la usamos para almacenar resultados intermedios cuando hacemos cálculos más complicados.
+[![](/images/2011/03/calculadora.jpg)](/images/2011/03/calculadora.jpg)
+
+Toda calculadora decente tiene una o más teclas con una  M, se le llama  la memoria, y la usamos para almacenar resultados intermedios cuando hacemos cálculos más complicados.
 Los lenguajes de programación tienen esta facilidad, pero es mucho mejor, porque tienen la capacidad de crear todas las "memorias" que necesitemos.
 
 Para almacenar valores tenemos lo que llamamos variables.
 
 Veamos el siguiente ejemplo.
 
-
-    
-    
     >>> pi = 3.1415
     >>> 2 * pi
     6.283
@@ -188,14 +150,10 @@ Veamos el siguiente ejemplo.
     0.0
     >>> pi
     3.1415
-    
-
-
-
 
 La expresión pi = 3.1415 corresponde a lo que llamamos una **asignación**. Con esto estamos creando una variable que se llama pi cuyo valor será 3.1415. Una vez establecida esta variable la podemos usar una y otra vez en nuestra sesión en IDLE. A diferencia de algunas calculadoras la variable se pierde al salir de IDLE. Fíjense que cuando se **declara una variable** python no responde nada después del prompt.
 
-**Acumuladores**
+### Acumuladores
 
 Las calculadoras tienen unas teclas marcadas M+ ó M-. M+ suma el valor ingresado a lo que ya hay en memoria, en el caso de M- se resta de lo que hay en memoria.
 
@@ -290,7 +248,7 @@ Lo que hace la instrucción del es eliminar totalmente una variable, por esto qu
 
 Suficiente por hoy, con esto hay bastante para practicar. Has aprendido sobre las expresiones en python, como usar IDLE como una calculadora interactiva, como declarar variables y aprendimos que hay una clase especial de variables que se llaman acumuladores.
 
-Ejercicios:
+## Ejercicios
 
 1. Averigua que pasa cuando usas el operador de división entera (//) con números reales (por ejemplo 1.0 // 3.0).
 2. Calcula el promedio de 3 ramos o materias (por ejemplo, matemáticas, lenguaje e historia) en 3 acumuladores distintos, luego calcula tu promedio general.
