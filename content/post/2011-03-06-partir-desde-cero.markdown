@@ -19,28 +19,31 @@ tags:
 - números
 ---
 
-Cuando nos enseñan a contar en la escuela lo hacen a partir del uno: 1, 2, 3... Si hay una hilera de personas empezamos a contarlas desde 1. Por eso que los matemáticos tienen el conjunto de los números naturales que empieza desde 0: N = {1, 2, 3, 4.....}. Pero en computación las cosas empiezan desde cero.
+Cuando nos enseñan a contar en la escuela lo hacen a partir del uno: 
+
+    1, 2, 3... 
+    
+Si hay una hilera de personas empezamos a contarlas desde 1. Por eso que los matemáticos tienen el conjunto de los números naturales que empieza desde 1: N = {1, 2, 3, 4.....}. Pero en computación las cosas empiezan desde cero.
 
 Según [Wikipedia](http://es.wikipedia.org/wiki/Cero): "La palabra «cero» proviene de la traducción de su nombre en [sánscrito](http://es.wikipedia.org/wiki/S%C3%A1nscrito) _shunya_ ([vacío](http://es.wikipedia.org/wiki/Vac%C3%ADo)) al árabe _sifr_ (صفر), a través del italiano. La voz española «cifra» también tiene su origen en _sifr_."
 
 El cero, el valor nulo, la ausencia de algo, el origen, el primero de los números binarios, esa será nuestra primera cifra. La segunda cifra será el 1. Y no necesitamos más.
 
-0 y 1 son suficientes.
+## 0 y 1 son suficientes.
 
 El gran matemático Leibnitz lo [explicó así](http://www.leibniz-translations.com/binary.htm) en 1703:
 
+> El ajuste de cuentas común de la aritmética está hecho de acuerdo a la progresión de las decenas. Diez caracteres son usados, los que son 0, 1, 2, 3,  4, 5, 6, 7, 8, 9, los que denotan al cero, uno y los números sucesivos hasta el nueve inclusive. Y luego, cuando alcanzamos diez, el uno empieza de nuevo, escribiendo diez como "10", diez veces diez, o cien, como "100", diez veces cien, o mil, como "1000", diez veces mil como "10000", y así.
 
-> 
 
-[caption id="attachment_37" align="alignright" width="75" caption="La tabla de los números binarios de Leibniz (año 1703)"][![](http://www.programando.org/blog/wp-content/uploads/2011/03/TablaBinariosLeibniz-75x300.jpg)](http://www.programando.org/blog/wp-content/uploads/2011/03/TablaBinariosLeibniz.jpg)[/caption]
 
-El ajuste de cuentas común de la aritmética está hecho de acuerdo a la progresión de las decenas. Diez caracteres son usados, los que son 0, 1, 2, 3,  4, 5, 6, 7, 8, 9, los que denotan al cero, uno y los números sucesivos hasta el nueve inclusive. Y luego, cuando alcanzamos diez, el uno empieza de nuevo, escribiendo diez como "10", diez veces diez, o cien, como "100", diez veces cien, o mil, como "1000", diez veces mil como "10000", y así.
 
-Pero en vez de la progresión de diez, he usado por muchos años la más simple progresión de todas, la que se incrementa por dos, habiendo encontrado que es útil para la perfección de la ciencia de los números. Así que no uso otros caracteres que el 0 y el 1, y cuando llego al dos, empiezo de nuevo. Esto es porque el dos es expresado por "10", y dos veces dos, o cuatro, por "100", dos veces cuatro, u ocho, por "1000", dos veces ocho, o dieciseis, por "10000", y así. Aquí está la tabla de los números de esta manera, la cual puede ser extendida tan lejos como se desee.
+> Pero en vez de la progresión de diez, he usado por muchos años la más simple progresión de todas, la que se incrementa por dos, habiendo encontrado que es útil para la perfección de la ciencia de los números. Así que no uso otros caracteres que el 0 y el 1, y cuando llego al dos, empiezo de nuevo. Esto es porque el dos es expresado por "10", y dos veces dos, o cuatro, por "100", dos veces cuatro, u ocho, por "1000", dos veces ocho, o dieciseis, por "10000", y así. Aquí está la tabla de los números de esta manera, la cual puede ser extendida tan lejos como se desee.
 
-Aquí, de un vistazo se hace evidente la razón para una celebrada propiedad de la progresión geométrica de los dos en todos los números, la que establece que si uno tiene sólo uno de essos número por cada gradao, se pueden componer todos los números por debajo del grado más alto. De aquí, si uno ha dicho, por ejemplo, que 111, ó 7, es la suma de cuatro, dos y uno, y que 1101, ó 13, es la suma de ocho, cuatro y uno. Esta propiedad permite a los ensayadore pesar todo tipo de masas con pocos pesos y podría servir para acuñar de modo de obtener muchos valores con pocas monedas.
-Estableciendo estas expresiones de número nos permiten hacer todo tipo de operaciones mu fácilmente.
+> Aquí, de un vistazo se hace evidente la razón para una celebrada propiedad de la progresión geométrica de los dos en todos los números, la que establece que si uno tiene sólo uno de essos número por cada gradao, se pueden componer todos los números por debajo del grado más alto. De aquí, si uno ha dicho, por ejemplo, que 111, ó 7, es la suma de cuatro, dos y uno, y que 1101, ó 13, es la suma de ocho, cuatro y uno. Esta propiedad permite a los ensayadore pesar todo tipo de masas con pocos pesos y podría servir para acuñar de modo de obtener muchos valores con pocas monedas.
+Estableciendo estas expresiones de número nos permiten hacer todo tipo de operaciones muy fácilmente.
 
+[![La tabla de los números binarios de Leibniz (año 1703)](/images/2011/03/TablaBinariosLeibniz-75x300.jpg)](/images/2011/03/TablaBinariosLeibniz.jpg)  
 
 Y estas fascinantes propiedades aritméticas tienen la ventaja de que se pueden implementar muy bien en un dispositivo electrónico, siendo el 0 y el 1 los estados de un interruptor (o es apagado, y 1 es encendido).
 
@@ -53,256 +56,35 @@ Primero, un dígito binario se conoce como **bit**, por la contracción de las p
 Cuatro digitos binarios son un **nibble **(mascada en inglés), sólo hay 16 nibbles que mostramos en la siguiente tabla.
 
 
-
-
-
-
-
-
-
-
-
-Los 16 nibbles
-
-
-
-
-
-
-Base 2
-
-
-Base 10
-
-
-Base 16
-
-
-
-
-
-
-0000
-
-
-0
-
-
-0
-
-
-
-
-
-
-0001
-
-
-1
-
-
-1
-
-
-
-
-
-
-0010
-
-
-2
-
-
-2
-
-
-
-
-
-
-0011
-
-
-3
-
-
-3
-
-
-
-
-
-
-0100
-
-
-4
-
-
-4
-
-
-
-
-
-
-0101
-
-
-5
-
-
-5
-
-
-
-
-
-
-0110
-
-
-6
-
-
-6
-
-
-
-
-
-
-0111
-
-
-7
-
-
-7
-
-
-
-
-
-
-1000
-
-
-8
-
-
-8
-
-
-
-
-
-
-1001
-
-
-9
-
-
-9
-
-
-
-
-
-
-1010
-
-
-10
-
-
-A
-
-
-
-
-
-
-1011
-
-
-11
-
-
-B
-
-
-
-
-
-
-1100
-
-
-12
-
-
-C
-
-
-
-
-
-
-1101
-
-
-13
-
-
-D
-
-
-
-
-
-
-1110
-
-
-14
-
-
-E
-
-
-
-
-
-
-1111
-
-
-15
-
-
-F
-
-
-
-
-
-
-
-
-
+    Los 16 nibbles
+
+    Base 2 Base 10 Base 16
+
+    0000    0       0
+    0001    1       1
+    0010    2       2
+    0011    3       3
+    0100    4       4
+    0101    5       5
+    0110    6       6
+    0111    7       7
+    1000    8       8
+    1001    9       9
+    1010    10      A
+    1011    11      B
+    1100    12      C
+    1101    13      D
+    1110    14      E
+    1111    15      F
 
 
 En la tabla he colocado los valores expresados en otra base, en este caso la base 16, o [hexadecimal](http://es.wikipedia.org/wiki/Sistema_hexadecimal), es decir, en esa base se usan 16 caracteres, los dígitos del 0 al 9 y las letras desde la A a la F.
 
 La ventaja de usar estos nibbles es que facilita la transformación, y la visualización de números binarios, es por esto que esta notación es usada en muchos lenguajes de programación (cómo C, Java, JavaScript, C#).
 
-[caption id="attachment_39" align="alignright" width="116" caption="Matriz de 8 x 8 bits representando una L"][![](http://www.programando.org/blog/wp-content/uploads/2011/03/matriz_de_bits.png)](http://www.programando.org/blog/wp-content/uploads/2011/03/matriz_de_bits.png)[/caption]
+![](/images/2011/03/matriz_de_bits.png)
 
 Veamos, FF sería 15*16 + 15 = 255. Pero sabemos que F son cuatro unos seguidos, así que FF en binario es 11111111. Otro ejemplo, A5A5, sería 1010 0101 1010 0101.
-
 
 Esto es usado como un modo de crear máscaras, o señales de ceros y unos. Imaginen que quieren construir en pantalla una L dentro de un rectángulo de 8 x 8, eso se representaría como la matriz de la figura en la derecha.
 
@@ -318,7 +100,7 @@ Esta notación también es usada actualmente para designar [los colores en el di
 
 Dominar la notación binaria y hexadecimal es uno de los conocimientos básicos fundamentales del programador profesional, los invito a profundizar resolviendo los ejercicios.
 
-Ejercicios:
+## Ejercicios:
 
 1. ¿A cuál número decimal corresponde el siguiente número binario: 101010101010?
 
