@@ -4,7 +4,6 @@ date: 2011-03-14 00:57:41
 layout: post
 slug: el-lenguaje-apropiado
 title: El lenguaje apropiado
-wordpress_id: 61
 categories:
 - Aprendiendo a programar
 tags:
@@ -12,9 +11,10 @@ tags:
 - hola mundo
 - lenguajes de programación
 - python
+- curso
 ---
 
-Elegir el lenguaje apropiado para aprender a programar no es tarea fácil. Cualquier decisión puede ser objetada por diversas razones. En [mi primer programa](http://www.programando.org/blog/2011/03/mi-primer-programa/) usamos javascript pues es, probablemente, el lenguaje de programación más difundido al estar disponible en todo navegador de internet. Sin embargo, aunque javascript es un lenguaje poderoso y se puede desarrollar perfectamente con él (a niveles que muchos programadores profesionales no sospechan), puede no ser el más apropiado para dar nuestros primeros pasos en la programación. Por otro lado, mi objetivo es enseñar  buenas prácticas, y tecnologías modernas que están disponibles al programador.
+Elegir el lenguaje apropiado para aprender a programar no es tarea fácil. Cualquier decisión puede ser objetada por diversas razones. En [mi primer programa](/blog/2011/03/05/mi-primer-programa.html) usamos javascript pues es, probablemente, el lenguaje de programación más difundido al estar disponible en todo navegador de internet. Sin embargo, aunque javascript es un lenguaje poderoso y se puede desarrollar perfectamente con él (a niveles que muchos programadores profesionales no sospechan), puede no ser el más apropiado para dar nuestros primeros pasos en la programación. Por otro lado, mi objetivo es enseñar  buenas prácticas, y tecnologías modernas que están disponibles al programador.
 
 Por experiencia sé que no existe el lenguaje de programación perfecto. La elección de un lenguaje para resolver un problema dependerá de un montón de factores, incluso algunos ni siquiera son razones técnicas. No quiero cortarles las alas a nadie, y me gustaría que lo que aprendan en este blog sirva a aquel profesional que trabaja en ambientes corporativos, como en una startup, usando el stack de Microsoft, o Java, e incluso para el aspirante a hacker que desea contribuir al kernel de linux programando C.
 
@@ -30,7 +30,8 @@ No voy a escribir un tutorial sobre cómo instalar y configurar python, eso es u
 
 Otra cosa, actualmente hay 2 versiones vigentes de Python, la 2.7 y la 3.2. <del>Los artículos que vienen estarán escritos de modo que sean compatibles con ambas versiones</del> Los artículos estarán orientados a la versión 3.2 de Python, que es la versión estable en este momento (marzo de 2011), tomé esta decisión en la medida que fuí avanzando en los capítulos de este cursillo, la razón es que no quiero complicarme con muchas explicaciones. <del>Cuando llegue el momento indicaremos si vamos a necesitar alguna característica de una versión en particular</del>. Así que adelante, instalen y configuren su ambiente Python, que se acerca el momento de aprender verdaderamente a programar.
 
-Ejercicio:
+## Ejercicio
+
 1. Descarga e instala python 3.2 en tu sistema.
 2. Una vez que hayas instalado python en tu sistema escribe el siguiente programa en python:
 
