@@ -14,7 +14,7 @@ tags:
 - JavaScript
 ---
 
-![Sinclair ZX81](images/2011/03/zx81.gif)
+![Sinclair ZX81](/images/2011/03/zx81.gif)
 
 
 Empecé a programar a los 15 años. Era un programa escrito en Basic para una Sinclair ZX-81, una computadora personal, la más barata de ese tiempo, costaba unos 100 dólares.
@@ -59,11 +59,11 @@ En el editor de texto escriban este código y guárdenlo en su disco duro como _
 
 Acá está la imagen tomada en mi PC usando Notepad++ (click para agrandar)
 
-![](images/2011/03/js-tester-300x236.png)
+[![](/images/2011/03/js-tester-300x236.png)](/images/2011/03/js-tester.png)
 
 Ustedes pueden visualizar esta página web desde su browser, en mi caso con Chrome:
 
-![](images/2011/03/js-tester-en-browser-300x166.png)
+[![](/images/2011/03/js-tester-en-browser-300x166.png)](/images/2011/03/js-tester-en-browser.png)
 
 Por supuesto si presionan el botón no sucederá nada pues no hemos escrito nuestro programa aún, creamos esta página para poder probar el programa que escribiremos a continuación.
 
@@ -74,11 +74,11 @@ Según el diccionario un programa corresponde a "cada una de las operaciones que
 Escribamos la secuencia de acciones que se precisan para poder cumplir con el requerimiento original en nuestro lenguaje natural, el castellano:
 
 
-> 1. Solicitar que se ingrese el valor en grados farenheit.
+  1. Solicitar que se ingrese el valor en grados farenheit.
 
-2. Convertir el valor de grados farenheit a grados celsius.
+  2. Convertir el valor de grados farenheit a grados celsius.
 
-3. Mostrar el valor obtenido en la conversión en el paso 2.
+  3. Mostrar el valor obtenido en la conversión en el paso 2.
 
 
 
@@ -86,7 +86,7 @@ Escribamos la secuencia de acciones que se precisan para poder cumplir con el re
 Resulta que esta secuencia de acciones tiene la estructura de casi todos los programas:
 
 
-![](images/2011/03/EstructuraPrograma.png)
+![](/images/2011/03/EstructuraPrograma.png)
 
 Un programa típico toma un conjunto de datos de entrada, los procesa ejecutando una secuencia de instrucciones y emite un conjunto de datos de salida. El paso 1 procesa la entrada, el paso 2 realiza el cálculo de conversión y el paso 3 genera la salida del programa.
 
@@ -169,7 +169,7 @@ Para poder probar todo esto debemos colocar el texto dentro del archivo js-teste
 Acá está una copia de la pantalla del editor en mi PC:
 
 
-![](images/2011/03/js-tester-primer-programa3-300x169.png)
+[![](/images/2011/03/js-tester-primer-programa3-300x169.png)](/images/2011/03/js-tester-primer-programa3.png)
 
 Ahora sí debería funcionar y ejecutarse el programa cuando presiones el botón. Les sugiero intentar este ejercicio y si tienen dudas o problemas plantearlas en los comentarios.
 
