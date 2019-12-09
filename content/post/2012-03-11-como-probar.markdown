@@ -42,7 +42,7 @@ Pero sigamos analizando el bug. Una técnica que es muy util para desarrollar c�
 
 Supongamos que nuestra función que calcula una fecha previa se define de este modo:
 
-prev_year(cur_day, cur_mon, cur_year,  delta_year);
+    prev_year(cur_day, cur_mon, cur_year,  delta_year);
 
 cur_day, cur_mon y cur_year son la fecha que le pasamos como argumento, delta_year es la cantidad de años que queremos que se "retroceda en el tiempo" para calcular la fecha deseada. Esta funcion nos devuelve una estructura que expresa la fecha deseada e en sus tres parámetros día, mes y año.
 
@@ -51,11 +51,8 @@ Ahora usemos seudo código para expresar nuestras pruebas unitarias (lo que sigu
 
 
 
-
-> prueba_1: assert prev_year(2012, 3, 1, 10) == (2002, 3, 1);
-prueba_2: assert prev_year(2012, 2, 29, 10) == (2002, 3, 1);
-
-
+    prueba_1: assert prev_year(2012, 3, 1, 10) == (2002, 3, 1);
+    prueba_2: assert prev_year(2012, 2, 29, 10) == (2002, 3, 1);
 
 
 

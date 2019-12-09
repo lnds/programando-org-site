@@ -17,7 +17,7 @@ Parece que no me he dado el tiempo para escribir en este blog como esperaba, as�
 
 Vamos por él.
 
-**El problema de Siracusa**
+## El problema de Siracusa
 
 Piensa en un número positivo cualquiera, si es par divídelo por 2, si es impar multiplícalo por 3 y súmale 1. Repite el proceso con el resultado. Llegará un momento en que obtendrás el número 1, no importa el número que elijas.
 
@@ -26,12 +26,9 @@ A la secuencia de números que genera este algoritmo la llamamos la secuencia de
 Veamos algunos ejemplos:
 
 
-
-
-
 > Supongamos que partimos con el 4, la secuencia que obtendremos será: 4, 2, 1.
 
-Partamos con el 11: 11, 34 (=11*3+1), 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.
+> Partamos con el 11: 11, 34 (=11*3+1), 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.
 
 
 
@@ -46,11 +43,11 @@ Por ejemplo, si le paso como parámetro el número 5 al programa este debería i
 
 
 
-> 1: 4, 2, 1.
-2: 1.
-3: 10, 5, 16, 8, 4, 2, 1 <-- esta es la secuencia más larga, por tanto el resultado es 3.
-4: 2, 1.
-5: 16, 8, 4, 2, 1.
+    1: 4, 2, 1.
+    2: 1.
+    3: 10, 5, 16, 8, 4, 2, 1 <-- esta es la secuencia más larga, por tanto el resultado es 3.
+    4: 2, 1.
+    5: 16, 8, 4, 2, 1.
 
 
 

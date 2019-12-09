@@ -42,9 +42,11 @@ Los siguientes programas de ejemplo son equivalentes:
 
 **Programa 1:**
 
+<script src="https://gist.github.com/lnds/3862218.js"></script>
 
 **Programa 2:**
 
+<script src="https://gist.github.com/lnds/3862222.js"></script>
 
 Se debe crear un programa que reciba como entradas dos programas Fortran IV y escriba en pantalla: "los programas son equivalentes" o "los programas no son equivalentes".
 

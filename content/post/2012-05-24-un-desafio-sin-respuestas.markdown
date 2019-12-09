@@ -9,7 +9,7 @@ categories:
 - Sin categoría
 ---
 
-Lamentablemente hasta ahora sólo tengo una respuesta [al desafío de mayo](http://www.programando.org/blog/2012/05/desafio-2012-05-un-poco-de-estadistica/), el valiente fue Javier Rovegno, quién además ha investigado bastante sobre el tema.
+Lamentablemente hasta ahora sólo tengo una respuesta [al desafío de mayo](http://www.programando.org/blog/2012/05/12/desafio-2012-05-un-poco-de-estadistica.html), el valiente fue Javier Rovegno, quién además ha investigado bastante sobre el tema.
 
 He usado esta misma pregunta varias veces en pruebas de selección de personal (es buena idea aparte de ver el currículum, [preguntarle a los ingenieros de software si son capaces de programar](http://www.lnds.net/blog/2010/12/como-contratar-malabaristas.html)). Normalmente a mis entrevistados les doy a escoger entre varias preguntas, por ejemplo, le presento 3 preguntas y les doy a elegir 2. Nunca he visto que alguien haya contestado esta pregunta.
 

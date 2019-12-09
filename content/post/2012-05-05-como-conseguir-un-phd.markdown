@@ -17,39 +17,33 @@ tags:
 En [Programming Pearls](http://amzn.to/IlzYgo)[1], Jon Bentley propone la manera de hacerse de un PhD:
 
 
-
-
-
 > Dado el siguiente algoritmo
 
->
->> while (n > 1) do
+>```
+while (n > 1) do
 if (n is even)
 n <- n / 2
 else
 n <- n*3+1
 end
-> 
-> 
-Demuestre que este programa se detiene para cualquier número n entero.
-
-
-
+```
+> Demuestre que este programa se detiene para cualquier número n entero.
 
 
 Si ustedes resuelven este acertijo entonces, dice Bentley, ¡vayan a la universidad más cercana y reclamen su PhD!
 
 Claro que en el camino se podrían quedar sin amigos, como nos recuerda [XKCD](http://xkcd.com/710/):
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/05/collatz_conjecture.png)](http://www.programando.org/blog/wp-content/uploads/2012/05/collatz_conjecture.png)
+[![](/images/2012/05/collatz_conjecture.png)](/images/2012/05/collatz_conjecture.png)
 
 Este es un problema planteado por Lothar Collatz en 1937, que ha generado bastante investigación. Para los interesados hay una revisión del problema en esta página: [http://www.numbertheory.org/keith/george.html](http://www.numbertheory.org/keith/george.html).
 Lo que sabemos
 
 Este problema es la base del [desafío de abril](http://www.programando.org/blog/2012/04/desafio-2012-04-el-problema-de-siracusa/), donde algunos de [ustedes participaron](http://www.programando.org/blog/2012/04/desafio-2012-04-and-the-winner-is/).
 
-Mi respuesta al problema es la siguiente (que llamaremos [siracusa-1](siracusa/siracusa-1.c)):
+Mi respuesta al problema es la siguiente (que llamaremos [siracusa-1](https://gist.github.com/lnds/2572943)):
 
+{{<gist lnds 2572943>}}
 
 
 No es la más breve, que era una de los [requerimientos del desafío](http://www.programando.org/blog/2012/04/desafio-2012-04-el-problema-de-siracusa/). La solución en [Ruby de Daniel Torres](https://github.com/lnds/programando.org/blob/master/siracusa/dtorres-1.rb) es la más breve presentada, se me ocurre que podríamos escribir una más breve en perl, pero lamentablemente estas soluciones tienen un mal desempeño, llegando a consumir mucho tiempo de cpu.
@@ -64,23 +58,21 @@ Lo primero que vamos a hacer es operar con bits.
 
 La expresión:
 
-
-
-> n % 2 == 0 ? n / 2 : n * 3 + 1
-
+```c
+n % 2 == 0 ? n / 2 : n * 3 + 1
+```
 
 
 Se transformará en
 
-
-
-> n & 0x01 ? ((n << 1)|1)+n : n >> 1
-
+```c
+n & 0x01 ? ((n << 1)|1)+n : n >> 1
+```
 
 
 Esto requiere un poco de explicación, verificar que un número es par es equivalente a verificar el bit menos  significativo y ver si es un 1. Dividir por 2 es lo mismo que hacer un shift a la derecha en 1.
 
-La expresión n*3+1 es lo mismo que hacer: ((n*2)+1)+n = ((n<<2)|1)+n.
+La expresión ```n*3+1``` es lo mismo que hacer: ```((n*2)+1)+n = ((n<<2)|1)+n```.
 
 La verdad es que este cambio no impacta en el desempeño. Pero debemos notar que una vez que multiplicamos por 3 y sumamos 1 lo que hacemos es obtener un número par. Así que esto nos da la clave para reformular nuestro función orbita de la siguiente manera:
   
