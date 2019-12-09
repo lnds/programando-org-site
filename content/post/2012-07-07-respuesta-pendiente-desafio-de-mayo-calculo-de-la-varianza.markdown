@@ -37,17 +37,13 @@ Teniendo esto, la varianza se puede calcular como:
 
 Lo que nos lleva a este algoritmo:
 
-    
+```python   
     def varianza(X[]):
         let n = 0
         let media = 0
         let M2 = 0
         let delta = 0
 
-
-
-    
-     
         for x in X:
             n = n + 1
             delta = x - media
@@ -55,7 +51,7 @@ Lo que nos lleva a este algoritmo:
             M2 = M2 + delta*(x - media)
     
         return M2/(n - 1)
-
+```
 
 Y esta es la solución que estaba pendiente, gracias a Daniel y Javier por participar. Mañana veremos la solución al desafío de Julio y entregaremos el premio.
 

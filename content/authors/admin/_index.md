@@ -20,7 +20,7 @@ organizations:
   url: "https://www.programando.org"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ingeniero, autor, emprendedor y ejecutivo chileno. Apasioando programador.
+bio: Ingeniero, autor, emprendedor y ejecutivo chileno. Apasionado programador.
 
 intereses:
 - Lenguajes de Programación
