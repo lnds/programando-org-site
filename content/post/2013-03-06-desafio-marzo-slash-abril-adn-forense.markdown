@@ -29,48 +29,39 @@ Para calcular este grado de similitud se asigna un puntaje de acuerdo a una matr
 
 Una forma de alinear los genes AGTGATG y GTTAG es la siguiente:
 
-{% codeblock %}
-AGTGAT-G
--GT--TAG
-{% endcodeblock %}
+	AGTGAT-G
+	-GT--TAG
 
 En este caso tenemos 4 coincidencias G en la segunda posición, T en la tercera, T en la sexta y G en la octava posición.
 
 Otra forma de alinear ambos genes es la siguiente
 
-{% codeblock %}
-AGTGATG
--GTTA-G
-{% endcodeblock %}
+	AGTGATG
+	-GTTA-G
+
 Acá tenemos también 4 coincidencias, G en la segunda posición, T en la tercera, A en la quinta posición y G en la octava posición.
 
 ¿Cuál alineamiento es el mejor?
 
 Para determinarlo calculamos el puntaje de alineamiento, usando la siguiente matriz simétrica de puntajes:
 
-{% img center /blog/images/2013/03/matriz_genes.gif %}
+![](/images/2013/03/matriz_genes.gif)
 
 Lo que hacemos es que vemos todos los pares que se forman y sumamos los valores de acuerdo a la matriz (el asterisco indica que no pueden haber pares -,-).
 
 En el caso del primer alineamiento tenemos los siguientes pares:
 
-{% codeblock %} 
-A-,GG,TT,G-,A-,TT,-A,GG
-{% endcodeblock %}
+	A-,GG,TT,G-,A-,TT,-A,GG
 
 Buscamos en la matriz de acuerdo a estas "coordenadas":
 
-{% codeblock %}
-A-=(-3), GG=5, TT=5, G-=(-2), A-=(-3), TT=5, -A=(-3), GG=5
-{% endcodeblock %}
+	A-=(-3), GG=5, TT=5, G-=(-2), A-=(-3), TT=5, -A=(-3), GG=5
 
 Sumamos: (-3)+5+5+(-2)+(-3)+5+(-3)+5=9
 
 Hagamos el mismo cálculo para el segundo alineamiento:
 
-{% codeblock %}
-A-=(-3), GG=5, TT=5, GT=(-2), AA=5, T-=(-1), GG=5
-{% endcodeblock %}
+	A-=(-3), GG=5, TT=5, GT=(-2), AA=5, T-=(-1), GG=5
 
 Sumamos: (-3)+5+5+(-2)+5+(-1)+5 = 14
 
@@ -78,7 +69,7 @@ En este caso el puntaje de alineamiento es 14 por lo tanto este alineamiento es 
 
 El problema es encontrar un algoritmo que dados dos genes encuentre el alineamiento con el mayor puntaje.
 
-**Desafío Marzo-Abril 2013**
+### Desafío Marzo-Abril 2013
 
 Se ha cometido un asesinato. Entre las evidencias se tiene ADN de la víctima y del presunto asesino. Sin embargo, después de secuenciar el ADN el servidor que contienen el software que permite comparar las muestras ha sufrido un crash de disco. El equipo forense ha sido descuidado y no tiene respaldos.
 
@@ -95,21 +86,19 @@ Así que el desafío de esta oportunidad consiste en construir un programa que r
 
 El siguiente es un ejemplo de archivo de entrada:
 
-{% codeblock %}
-			# Matriz
-A:5,-1,-2,-1,-3
-C:-1,5,-3,-2,-4
-G:-2,-3,5,-2,-2
-T:-1,-2,-2,5,-1
--:-3,-4,-2,-1,*
-			# Evidencia
-0:AGTGATG
-			# ADN Sospechosos
-1:AAATGC
-2:AGGAA
-3:AGTGATA
-4:GATTACA
-{% endcodeblock %}
+	# Matriz
+	A:5,-1,-2,-1,-3
+	C:-1,5,-3,-2,-4
+	G:-2,-3,5,-2,-2
+	T:-1,-2,-2,5,-1
+	-:-3,-4,-2,-1,*
+	# Evidencia
+	0:AGTGATG
+	# ADN Sospechosos
+	1:AAATGC
+	2:AGGAA
+	3:AGTGATA
+	4:GATTACA
  
 El programa debe entregar como resultado el número del sospechoso cuyo ADN se parece más al de la evidencia.
 
@@ -119,7 +108,7 @@ En este caso, con el archivo de entrada mostrado anteriormente la salida del pro
 
 Opcionalmente el programa puede mostrar los alineamientos y el puntaje de alineamiento, pero no es necesario para participar (aunque si hay un empate, el programa con más "features" tiene más "puntos").
 
-Ganará el programa que se demore el menor tiempo en calcular el culpable. En caso de haber empate, o tener tiempos muy similares, se calculará [el valor E de acuerdo a las métricas de Halstead](http://www.programando.org/blog/2013/01/desafio-enero-las-metricas-de-halstead/).
+Ganará el programa que se demore el menor tiempo en calcular el culpable. En caso de haber empate, o tener tiempos muy similares, se calculará [el valor E de acuerdo a las métricas de Halstead](https://www.programando.org/blog/2013/01/10/desafio-enero-las-metricas-de-halstead.html).
 
 El premio por este desafío será una Giftcard Amazon de 40 dólares la que se entregará sólo si participan 8 o más concursantes.
 
