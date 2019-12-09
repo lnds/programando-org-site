@@ -13,44 +13,31 @@ El desafío de este mes es fácil, pero vamos a ver que tan buenos son para calc
 
 Voy a tratar de ser lo más preciso posible en el requerimiento.
 
-**Cálculo de la desviación estándar**
+### Cálculo de la desviación estándar
 
 La desviación estándar se define como la raiz cuadrada de la varianza, una   fórmula para la varianza es esta:
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/05/varianza.png)](http://www.programando.org/blog/wp-content/uploads/2012/05/varianza.png)
+[![](/images/2012/05/varianza.png)](/images/2012/05/varianza.png)
 
 La X con la barrita encima es la media.
 
 El algoritmo típico para calcular la varianza de una lista L de números es el siguiente:
 
 
-
-
-`
-def Varianza(X[], N):`
-
-
-
-
-let M = media(X, N)
-let S = 0
-for x in X:
-S = S + (x-M)^2
-return S/N
-
-
-
+```
+def Varianza(X[], N):
+    let M = media(X, N)
+    let S = 0
+    for x in X:
+        S = S + (x-M)^2
+    return S/N
 
 def media(X[], N):
-
-
-
-
-let S = 0
-for x in X:
-S = S + x
-return S/N
-
+    let S = 0
+    for x in X:
+    S = S + x
+    return S/N
+```
 
 Este algoritmo requiere "pasar" dos veces por los datos, una para calcular la media y otra para calcular la varianza.
 

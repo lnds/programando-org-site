@@ -26,8 +26,6 @@ Definiremos el número Hi(p1,p2,p3), o número de Hamming sub i, con i = 1,2,...
 
 
 
-
-
 Así que H5(2, 3, 5)=6 y H9(2,3,5)=12
 
 
@@ -35,7 +33,7 @@ El problema consiste en escribir un programa que reciba 4 números: p1 p2 p3 i, 
 
 Ejemplo de entrada:
 
-# hamming 7 13 19 100
+    # hamming 7 13 19 100
 
 Salida esperada:
 

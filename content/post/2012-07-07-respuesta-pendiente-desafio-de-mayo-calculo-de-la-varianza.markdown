@@ -21,19 +21,19 @@ El desafío consistía en calcular la Varianza de la forma más rápida posible,
 
 En el desafío les mostré una implementación simple basada en la transcripción de la fórmula:
 
-![](http://www.programando.org/blog/wp-content/uploads/2012/05/varianza.png)
+![](/images/2012/05/varianza.png)
 
 Hay que recordar un par de  resultados fundamentales de la operación con  números en punto flotante. Primero, no son capaces de representar números de precisión infinita, segundo la suma de números en punto flotante no es asociativa, es decir (a+b)+c no es siempre igual que a+(b+c). Cuando tenemos series largas de sumas el error de aproximación puede llevar a un resultado catastrófico, de hecho, el algoritmo mostrado puede llevar a un resultado negativo con ciertos conjuntos de datos, y por ende la desviación estándar, que es la raiz cuadradada de la varianza, puede resultar en un número imaginario, lo que en términos de programación puede generar una excepción en el cálculo.
 
-Ahora, un poco de álgebra nos convencerá de que la expresión: ![](http://www.programando.org/blog/wp-content/uploads/2012/07/m2n.png)   =   ![](http://www.programando.org/blog/wp-content/uploads/2012/07/sxn2.png) se puede escribir de la siguiente forma:
+Ahora, un poco de álgebra nos convencerá de que la expresión: ![](/images/2012/07/m2n.png) = ![](/images/2012/07/sxn2.png) se puede escribir de la siguiente forma:
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/07/m2nrec.png)](http://www.programando.org/blog/wp-content/uploads/2012/07/m2nrec.png)
+[![](/images/2012/07/m2nrec.png)](/images/2012/07/m2nrec.png)
 
 (sí se que su álgebra está oxidada, pero créanme que es verdad).
 
 Teniendo esto, la varianza se puede calcular como:
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/07/s2n.png)](http://www.programando.org/blog/wp-content/uploads/2012/07/s2n.png)
+[![](/images/2012/07/s2n.png)](/images/2012/07/s2n.png)
 
 Lo que nos lleva a este algoritmo:
 
