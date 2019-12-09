@@ -12,7 +12,7 @@ tags:
 - Métricas
 ---
 
-Ha llegado la hora de empezar los desafíos de este año. La meta es prepararse para el gran desafío de octubre, que tendrá un premio especial y que llamaremos el Premio DMW ([como homenaje póstumo a nuestro colega Daniel Molina Wegener](http://www.programando.org/blog/2012/11/adios-daniel/)).
+Ha llegado la hora de empezar los desafíos de este año. La meta es prepararse para el gran desafío de octubre, que tendrá un premio especial y que llamaremos el Premio DMW ([como homenaje póstumo a nuestro colega Daniel Molina Wegener](https://www.programando.org/blog/2012/11/15/adios-daniel.html)).
 
 Este primer desafío es bien especial, porque nos servirá para construir la herramienta que nos permitirá medir a los futuros participantes.
 
@@ -20,7 +20,9 @@ Se trata de las métricas de Halstead.
 
 <!-- more -->
 
-{% img right /blog/images/2013/01/halstead.jpg %}
+![](/images/2013/01/halstead.jpg)
+
+
 Las métricas de Complejidad de Halstead fueron desarrolladas por Maurice Halstead como un medio de determinar la complejidad cuantitativa  directamente de los operadores y operandos usados en el código fuente de un módulo.
 
 Para esto, Halstead definió los siguientes números:
@@ -48,6 +50,7 @@ Dados los operadores, y los operandos, se definen las siguientes métricas:
 7. Tiempo de Entendimiento: T = E/18 (18 es el numero que Halstead encontró experimentalmente para expresar esta magnitud en segundos)
 
 ## Desafío Enero 2013
+
 El desafío es el siguiente:
 
 Dado un archivo con una lista de operadores (uno por linea), y un programa fuente (en cualquier lenguaje de programación), se debe crear un programa que entregue los valores N, n, V, D, L, E y T. Si un token no está en la lista de operadores se considera un operando. Los strings y números se deben considerar operandos. Ignoraremos todo tipo de parentesis, y signos de puntuación (coma, punto y coma, dos puntos, punto, signo de interrogación,etc), a menos que aparezcan en la lista de operadores.
@@ -56,42 +59,42 @@ Ejemplo:
 
 Dado el archivo siguiente con la lista de operadores:
 
-{% blockquote %}
- input
- print
- if
- else
- then
- while
- <=
-{% endblockquote %}
+```
+   input
+   print
+   if
+   else
+   then
+   while
+   <=
+````
 
 Y dado el siguiente programa fuente:
 
-{% codeblock %}
- input ("ingrese un valor:", a)
- if a <= 100 then
-    print ("ganaste")
- else
-     print ("perdiste")
-{% endcodeblock %}
+```
+   input ("ingrese un valor:", a)
+   if a <= 100 then
+      print ("ganaste")
+   else
+      print ("perdiste")
+````
 
 El resultado será:
 
-{% blockquote %}
-n1 = 6 (input, if, <=, then print, else)
-N1 = 7 (input, if, <=, then, print, else, print)
-n2 = 5 ("ingrese un valor:", a, 100, "ganaste", "perdiste")
-N2 = 6 ("ingrese un valor:", a, a, 100, "ganaste", "perdiste")
+```
+   n1 = 6 (input, if, <=, then print, else)
+   N1 = 7 (input, if, <=, then, print, else, print)
+   n2 = 5 ("ingrese un valor:", a, 100, "ganaste", "perdiste")
+   N2 = 6 ("ingrese un valor:", a, a, 100, "ganaste", "perdiste")
 
-N = 13
-n = 11
-V = 44,97
-L = 0,28
-D = 3,6
-E = 161,89
-T = 8,9
-{% endblockquote %}
+   N = 13
+   n = 11
+   V = 44,97
+   L = 0,28
+   D = 3,6
+   E = 161,89
+   T = 8,9
+```
 
 ## Reglas del concurso
 

@@ -13,7 +13,7 @@ categories:
 La programación funcional, o mejor dicho, los lenguajes de programación funcionales, son aquellos lenguajes donde las variables no tienen estado — no hay cambios en éstas a lo largo del tiempo — y son inmutables — no pueden cambiarse los valores a lo largo de la ejecución. Además los programas se estructuran componiendo _expresiones_ que se evalúan como funciones. Dentro de los lenguajes funcionales tenemos Lisp, Scheme, Clojure, Haskell, OCaml y Standard ML, entre otros. Estos lenguajes están diversidad de tipificación, donde se encuentran lenguajes dinámicos, estáticos y estáticos fuertes.
 
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/11/976083_74231444-1024x682.jpg)](http://www.programando.org/blog/wp-content/uploads/2012/11/976083_74231444.jpg)
+[![](/images/2012/11/976083_74231444-1024x682.jpg)](/images/2012/11/976083_74231444.jpg)
 
 
 En los lenguajes funcionales las instrucciones cíclicas como **for**, **while** y **do-while** no existen. Todo se procesa usando recursividad y funciones de alto orden. Esto se debe a los fundamentos matemáticos de la mayoría de los lenguajes funcionales, principalmente con bases en el sistema formal diseñado por Alonzo Church para definir _cómputos_ y estudiar las _aplicaciones_ de las funciones llamado Cálculo Lambda. En este sistema formal se puede expresar recursividad en las funciones, y entre otras cosas interesantes, se pueden expresar combinadores — funciones sin variables libres — como el Combinador de Punto Fijo o Y-Combinator, que expresa recursividad sin hacer llamadas recursivas. En el Cálculo Lambda existen tres transformaciones esenciales, la conversión α, la reducción β y la conversión η. En la conversión α se sustituyen los nombres de las variables para dar mas claridad a la aplicación de las funciones, por ejemplo evitando duplicados en sus nombres. En la reducción β se traza el llamado de las funciones sustituyendo las funciones por sus expresiones resultantes. Finalmente en las conversiones η se busca las equivalencias de trazado de funciones sustituyéndolas por sus equivalentes. Estas _transformaciones_ también pueden ser aplicadas en los lenguajes funcionales — o en su mayoría — dando lugar lenguajes que cuentan con una gran _expresividad_ y _consistencia_.
@@ -31,7 +31,7 @@ Les pondré el clásico ejemplo del chiste geek del castigo _“Debo poner atenc
      ?>
 
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/11/haskell-logo.png)](http://www.programando.org/blog/wp-content/uploads/2012/11/haskell-logo.png)
+[![](/images/2012/11/haskell-logo.png)](/images/2012/11/haskell-logo.png)
 
 
 

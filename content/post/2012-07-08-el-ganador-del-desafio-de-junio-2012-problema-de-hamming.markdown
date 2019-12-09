@@ -16,8 +16,6 @@ Es hora de entregar el premio al ganador del desafío de Junio.
 
 Participaron:
 
-
-
 	
   * **Javier Rovegno**: con dos soluciones, la segunda es correcta, esencialmente calcula todos los números posibles dentro del rango, y luego ordena la secuencia. Su solución está [aquí](https://gist.github.com/2932107).
 

@@ -19,12 +19,12 @@ Este desafío tuvo varios participantes, y a todo agradezco su participación. P
 
 Tomás Hermosilla usó la [fórmula de Binet](http://mathworld.wolfram.com/BinetsFibonacciNumberFormula.html) para calcular el "fibonacci inverso" y con esto obtener una solución muy eficiente en python. El código de Tomás está en su [repositorio github](https://github.com/thermosilla/desafio-fibonacci). Leonardo Jofré [entrega una solución en la misma linea](https://github.com/ljofre/randomcodes-/blob/master/lnds.py), también en python. Y Jano González hace lo propio pero esta vez usando JavaScript:
 
-{% gist 4260212 %}
+{{< gist janogonzalez 4260212 >}}
 
 Camilo Ramirez nos entrega [una solución en C#](https://dl.dropbox.com/u/29356804/ComprobacionFibonacci.rar) donde utiliza esta función para saber si un número es de Fibonacci:
 
-{% codeblock lang:csharp %}
-static bool IsFibonacci(int n)
+```c#
+	static bool IsFibonacci(int n)
         {
             //Aplicamos el enunciado de:
             //"Un numero pertenece a la serie de Fibonacci SI Y SOLO SI (5n^2 + 4) ó (5n^2 - 4) son cuadrados perfectos"
@@ -32,13 +32,13 @@ static bool IsFibonacci(int n)
             int posibleCuadradoPerfecto2 = 5 * (n * n) - 4;
             return (IsCuadradoPerfecto(posibleCuadradoPerfecto1) || IsCuadradoPerfecto(posibleCuadradoPerfecto2));
         }
-{% endcodeblock %}
+```
 
 Con esto "acelera" el loop para buscar el siguiente número de Fibonacci en la serie. Esta solución no es tan eficiente pero es un mix con la solución iterativa más clásica como la de Javier.
 
 Javier (JaAViEr ó 0x5d), nos sorprendió con esta elegante solución en Python:
 
-{% codeblock lang:python %}
+```python
 estado, n, a, b, i = True, [1,1], input("A:"), input("B:"), 0
 while estado:
 	if n[-1] >= a:
@@ -48,13 +48,13 @@ while estado:
 			break
 	n.append(n[-1]+n[-2])
 print i
-{% endcodeblock %}
+```
 
 Me gusta esta solución porque sólo asume lo que se plantea en el problema, sin recurrir a mayores conocimientos matemáticos. La solución es eficiente, y uno podría pensar que eventualmente puede consumir mucha memoria, pero la verdad es que la serie de fibonacci crece de tal manera que si representamos todo con enteros de 128 bits sólo necesitaríamos almacenar 186 números!.
 
 Mi solución está en C, y también se basa en el enunciado del problema, sin tratar de usar ningún conocimiento matemático adicional.
 
-{% codeblock lang:c %}
+```c
 int fibo(NUM a, NUM b) {
 	NUM fa = 0;
 	NUM fb = 1;
@@ -68,7 +68,7 @@ int fibo(NUM a, NUM b) {
 	}
 	return cont;
 }
-{% endcodeblock %}
+```
 
 Esta función no guarda en un arreglo en memoria los números de Fibonacci calculados, pues mantiene siempre los dós últimos números de Fibonacci de la secuencia (fa y fb). El código completo está en [mi repositorio gtihub](https://github.com/lnds/programando.org/blob/master/fibonacci/warmup-fibo.c).
 

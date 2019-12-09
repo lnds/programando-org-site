@@ -13,7 +13,7 @@ tags:
 - solución hamming
 ---
 
-[caption id="attachment_417" align="alignright" width="222"][![](http://www.programando.org/blog/wp-content/uploads/2012/07/Hamming-222x300.jpg)](http://www.programando.org/blog/wp-content/uploads/2012/07/Hamming.jpg) Richard Hamming[/caption]
+[![](/images/2012/07/Hamming-222x300.jpg)](/images/2012/07/Hamming.jpg) 
 
 [Richard Hamming](http://www-history.mcs.st-andrews.ac.uk/Biographies/Hamming.html) fue un notable matemático norteamericano, en 1945 trabajó en el proyecto Manhattan programando uno de los primeros computadores, desarrolló un programa que debía determinar si la explosión de la bomba atómica era capaz de incendiar la atmósfera, uno de los mayores temores de los científicos de esa época y que determinó la viabilidad de los lamentables bombardeos posteriores a Hiroshima y Nagasaki.
 
@@ -47,7 +47,15 @@ Nuestro problema es una generalización, en así que reemplazamos 2, 3 y 5 por p
 
 Con esto podemos tener nuestra primera solución, que voy a escribir en Python:
 
-
+```python
+def hamming(p1,p2,p3):
+	yield 1
+	m2 = times(p1, hamming(p1,p2,p3))
+	m3 = times(p2, hamming(p1,p2,p3))
+	m5 = times(p3, hamming(p1,p2,p3))
+	for h in merge(merge(m2, m3), m5):
+		yield h
+```
 
 Por supuesto falta el detalle, de las funciones times y merge, esto lo pueden encontrar en [mi repositorio en GitHub](https://github.com/lnds/programando.org/blob/master/hamming/hamming0_ediaz.py).
 

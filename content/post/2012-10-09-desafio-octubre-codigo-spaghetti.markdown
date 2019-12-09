@@ -20,11 +20,11 @@ Además en Fortran IV cada sentencia ocupa una linea de código. Las primeras 5 
 
 Una sentencia goto se ve así:
 
-goto etiqueta
+    goto etiqueta
 
 y una sentencia condicional se escribe así:
 
-if (expresion)goto etiqueta
+    if (expresion) goto etiqueta
 
 
 Donde "etiqueta" es un número.
@@ -33,7 +33,8 @@ Hay otras sentencias, pero sólo los goto condicionales empiezan con "if(" y fin
 
 Si les interesan conocer las posibles operaciones de un programa Fortran IV consideren las descritas en [este enlace](http://www.math-cs.gordon.edu/courses/cps323/FORTRAN/fortran.html).
 
-**Desafío**
+## Desafío
+
 El desafío es determinar si dos programas Fortran IV son equivalentes. Diremos que dos programas son equivalentes si, para todas las entradas posibles, ejecutan exactamente la misma secuencia de sentencias, ignorando los gotos incondicionales y las etiquetas. Diremos que dos secuencias de sentencias son las mismas si son textualmente identicas después de eliminar espacios y etiquetas.
 Asuman que cada goto condicional se tomará en algunos casos y no en otros. Los gotos incondicionales se ejecutan siempre. 
 

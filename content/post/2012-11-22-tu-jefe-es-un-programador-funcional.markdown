@@ -17,7 +17,7 @@ Probablemente tu jefe, y mi jefe, sin ser informáticos, ni programadores sean m
 
 Sí, Excel, ese que usan muchos de tus colegas no informáticos, soporta perfectamente el paradigma funcional.
 
-{% img center http://www.programando.org/blog/wp-content/uploads/2012/11/excel.jpg %}
+![](/images/2012/11/excel.jpg)
 
 <!-- more -->
 
@@ -25,26 +25,20 @@ Primero en Excel tienes **valores**, números, o a veces textos, que colocas en 
 
 Después tienes **funciones**, u operaciones que trabajan sobre valores que se encuentran en una celda, por ejemplo, puedes definir que el valor de la celda A3 se calcula como A3 = A1 * A2. Excel te mostrará el valor de aplicar esta operación a los valores disponibles en ese momento en las celdas A1 y A2, en nuestro caso se verá en A3 el número 6.
 
-{% img  center http://www.lnds.net/blog/wp-content/uploads/2012/11/Captura-de-pantalla-2012-11-21-a-las-20.54.00.png 141 'Definiendo el valor de una celda en función de otras dos' %}
+![](/images/2012/11/Captura-de-pantalla-2012-11-21-a-las-20.54.00.png)
 
 Lo "_interesante"_ es que esta operación  no cambia el valor de las celdas que son usadas como **argumentos. **Esto quiere decir que en Excel no hay **efectos laterales**, el resultado de la función sólo afecta a aquellos que usen el resultado, pero no a los argumentos de entrada.
 
 
 Veamos que pasa si agregamos otras ecuaciones a nuestra planilla, haciendo que unos valores dependan de resultados previos.
 
-
-
-
 Por ejemplo: 
 
 > A4=A1+2, B3=A2*A2, B4=A1-A2, C3 = B3-B4, C4 = B3*B4.
 
-
-
 Excel nos permte ver las dependencias de esta secuencia de cálculos:
 
-
-{% img center http://www.lnds.net/blog/wp-content/uploads/2012/11/Captura-de-pantalla-2012-11-21-a-las-21.03.11.png 303 'Dependencias entre las celdas' 'Dependencias entre las celdas' %}
+![](/images/2012/11/Captura-de-pantalla-2012-11-21-a-las-21.03.11.png)
 
 Decimos que el orden de evaluación está dado por las dependencias de los datos.
 
@@ -52,15 +46,14 @@ Otra cosa interesante es que dados los mismos valores de entrada el resultado fi
 
 Consideren la siguiente función en C:
 
-{% codeblock lang:c %}
+```c
 int calc(int x, int y)
 {
 	static int z = 0;
 	z = z + x * y;
 	return z;
 }
-{% endcodeblock %}
-
+```
 
 
 Si invocamos esta función la primera vez con los valores 1 y 2, el resultado será 2, pero si lo invocamos por segunda vez, con los argumentos 2 y 3, el resultado será 8, si la invocamos por tercera vez, con los valores 1 y 2, ¡el resultado será 10!
@@ -77,11 +70,10 @@ Las propiedades más importantes de la programación funcional están disponible
 
 Pero si nunca te has animado a aprender la programación funcional, quizás es hora de que abras una planilla de cálculo y empieces a jugar con ella, verás que es muy iluminador.
 
-Ejercicios:
------------
+## Ejercicios
 	
-> * Calcula la [sucesión de Fibonacci](http://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) en Excel
-> * ¿Es posible crear funciones recursivas en Excel? (sin usar VB  o algún lenguaje de programación para "extender" excel).
+* Calcula la [sucesión de Fibonacci](http://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) en Excel
+* ¿Es posible crear funciones recursivas en Excel? (sin usar VB  o algún lenguaje de programación para "extender" excel).
 
 
 

@@ -38,4 +38,4 @@ En otras palabras, para los número a y b, se debe contar los números de Fibona
 
 Tienen 2 semanas de plazo para resolver este desafío.
 
-{% img center http://www.programando.org/blog/wp-content/uploads/2012/12/fibonacci-shell.jpg %}
+![](/images/2012/12/fibonacci-shell.jpg)

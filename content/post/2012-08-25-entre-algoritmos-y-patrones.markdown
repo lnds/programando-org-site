@@ -27,7 +27,7 @@ La mayor parte de los programadores corporativos del mundo tienen un rutinario t
 Niklaus Wirth expresó una famosa ecuación como título a uno de sus [libros](http://amzn.to/OcAn8s):
 
 
- Algoritmos + Estructuras de Datos = Programas
+> Algoritmos + Estructuras de Datos = Programas
 
 
 
@@ -79,4 +79,4 @@ Nos movemos entre algoritmos y patrones de diseño, estamos llamados a innovar a
 
 
 
-Off Topic: queda una semana para el cierre del [desafío Julio Agosto](http://www.programando.org/blog/2012/07/desafio-julio-agosto-2012-l-systems/), espero sus respuestas...
+Off Topic: queda una semana para el cierre del [desafío Julio Agosto](https://www.programando.org/blog/2012/07/14/desafio-julio-agosto-2012-l-systems.html), espero sus respuestas...

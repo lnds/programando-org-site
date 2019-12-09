@@ -22,11 +22,11 @@ Así que felicitaciones a Cristóbal, y a los demás gracias por participar. Los
 * * *
 
 **ATENCIÓN:** (NOTA del 15 de febrero) 
-Debido [al comentario de Cristóbal Leiva](http://www.programando.org/blog/2013/02/resultado-desafio-enero-2013/#comment-799889923) se hizo una corrección en la gramática de mi reconocedor ANTLR, pueden revisar el cambio [acá](https://github.com/lnds/programando.org/blob/master/halstead/Halstead.g4). Esto implica un ajuste en el valor de E para algunos participantes, pero no alteró el ranking, ver los ajustes más abajo).
+Debido [al comentario de Cristóbal Leiva](https://www.programando.org/blog/2013/02/14/resultado-desafio-enero-2013.html#comment-799889923) se hizo una corrección en la gramática de mi reconocedor ANTLR, pueden revisar el cambio [acá](https://github.com/lnds/programando.org/blob/master/halstead/Halstead.g4). Esto implica un ajuste en el valor de E para algunos participantes, pero no alteró el ranking, ver los ajustes más abajo).
 
 * * *
 
-Bien, se cumplió el plazo para responder al desafío de enero: ["Las Métricas de Halstead"](http://www.programando.org/blog/2013/01/desafio-enero-las-metricas-de-halstead/). Al parecer estuvo más complicado de lo que esperaba. Finalmente sólo se presentaron 7 participantes, por lo que, lamentablemente, no tendremos premio :( …
+Bien, se cumplió el plazo para responder al desafío de enero: ["Las Métricas de Halstead"](https://www.programando.org/blog/2013/01/10/desafio-enero-las-metricas-de-halstead.html). Al parecer estuvo más complicado de lo que esperaba. Finalmente sólo se presentaron 7 participantes, por lo que, lamentablemente, no tendremos premio :( …
 
 Pero…  con el fin de estimularlos, y animarlos a que participen en el desafío que viene (en marzo), voy a hacer una excepción, y dado que sólo falto un participante, vamos a tener premio de Gift Card Amazon por 30 dólares en esta oportunidad!!
 

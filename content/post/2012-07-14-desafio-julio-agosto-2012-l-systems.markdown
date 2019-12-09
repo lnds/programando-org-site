@@ -30,13 +30,15 @@ reglas: (A-> AB), (B->A)
 
 si n cuenta las iteraciones de estas reglas a partir del estado inicial produce las siguientes secuencias:
 
-n = 0: A
-n = 1: AB // aplicando la primera regla
-n = 2: AB A // A-> AB y B -> A
-n = 3: AB A AB // A-> AB, B->A, A -> AB
-n = 4: AB A AB AB A // A-> AB, B->A, A-> AB, A->AB, B-> A
-n = 5: AB A AB AB A AB A AB // A-> AB, B->A, A->AB, A-> AB, B->A, A->AB, B->A, A->AB
-...
+```
+  n = 0: A
+  n = 1: AB // aplicando la primera regla
+  n = 2: AB A // A-> AB y B -> A
+  n = 3: AB A AB // A-> AB, B->A, A -> AB
+  n = 4: AB A AB AB A // A-> AB, B->A, A-> AB, A->AB, B-> A
+  n = 5: AB A AB AB A AB A AB // A-> AB, B->A, A->AB, A-> AB, B->A, A->AB, B->A, A->AB
+  ...
+```
 
 Si contamos la longitud de cada string generado obtenemos la secuencia de Fibonacci sin el primer 1 (1,2,3,5,8,13...).
 
@@ -44,47 +46,44 @@ Lo interesante es cuando asociamos los strings resultantes a instrucciones para 
 
 Por ejemplo, supongamos que tenemos el siguiente L-System:
 
+```
 variables: 0 1
 constantes: [ ]
 axioma: 0
 reglas: (1 -> 11), (0->1[0]0)
+```
 
 Entonces aplicamos el axioma recusivamente a través de las reglas y tenemos:
 
+```
 axioma: 0
 primera recursión: 1[0]0
 segunda recursión: 11[1[0]0]1[0]0
 tercera recursión: 1111[11[1[0]0]1[0]0]11[1[0]0]1[0]0
+```
 
 Si definimos las siguientes reglas de dibujo:
 
+```
 0: dibujar un segmento que representa una hoja
 1: dibujar un segmento de linea representando una rama
 [: guardar la posición y el ángulo, girar 45 grados a la izquierda
 ]: recuperar la posición y el ángulo, girar 45 grados a la derecha
+```
 
 Usando un stack LIFO y usando una tortuga para dibujar (como la de Logo, o Python), tenemos: la siguiente secuencia de imágenes:
 
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/07/l-systems-01.png)](http://www.programando.org/blog/wp-content/uploads/2012/07/l-systems-01.png)
-
-
+[![](/images/2012/07/l-systems-01.png)](/images/2012/07/l-systems-01.png)
 
 
 Pueden leer más detalles sobre los L-Systems en [esta entrada](http://en.wikipedia.org/wiki/L-system) en Wikipedia.
 
 
-
-
 Bien, ahora el desafío.
 
 
-
-
-
-# Desafío Julio - Agosto 2012, L-Systems
-
-
+## Desafío Julio - Agosto 2012, L-Systems
 
 
 Asuman que existe un programa que recibe las especificaciones para dibujar un L-System y genera un dibujo, usando [turtle graphics](http://en.wikipedia.org/wiki/Turtle_graphics).
@@ -93,79 +92,69 @@ Las especificaciones se describen en un archivo ascii con la siguiente estructur
 
 La primera linea debe contener la instrucción **lar** que especifica el largo de un segmento de linea a dibujar (en pixels), por ejemplo:
 
-    
+```
     lar 50
-
-
-
+```
 
 La segunda línea contiene el ángulo inicial especificado mediante la instrucción **ang **expresada en grados, por ejemplo:
 
-
-
-
-    
+```
     ang 60
-
+```
 
 luego se especifica el axioma mediante la instrucción **axi, **por ejemplo:
 
-    
+```    
     axi A
-
+```
 
 luego vienen las reglas, una por linea. Los símbolos de las reglas pueden ser:
 
 !ATENCION, he editado las reglas de generación por favor revisenlas:
 
-
-
 	
-  * **+ :** gira la tortuga a la izquierda de acuerdo a la cantidad de grados definida con la instrucción **ang**
-
-	
-  * **-** :   gira la tortuga a la derecha de acuerdo a la cantidad de grados definida con la instrucción **ang**
-
-	
-  * **B: **mueve la tortuga hacia atrás   la cantidad de pixeles definidos con la instrucción **lar** dejando un trazo
-
-	
-  * **b: ** mueve la tortuga hacia atrás  la cantidad de pixeles definidos con la instrucción **lar **sin dejar trazo
-
-	
-  * **F: **mueve la tortuga hacia adelante  la cantidad de pixeles definidos con la instrucción **lar** dejando un trazo
-
-	
-  * **f**: mueve la tortuga hacia adelante  la cantidad de pixeles definidos con la instrucción **lar**
-
-	
-  * Letras mayúsculas (excepto B y F) que indican las variables de las reglas.
+* **+ :** gira la tortuga a la izquierda de acuerdo a la cantidad de grados definida con la instrucción **ang**
 
 
+* **-** :   gira la tortuga a la derecha de acuerdo a la cantidad de grados definida con la instrucción **ang**
 
+
+* **B: **mueve la tortuga hacia atrás   la cantidad de pixeles definidos con la instrucción **lar** dejando un trazo
+
+
+* **b: ** mueve la tortuga hacia atrás  la cantidad de pixeles definidos con la instrucción **lar **sin dejar trazo
+
+
+* **F: **mueve la tortuga hacia adelante  la cantidad de pixeles definidos con la instrucción **lar** dejando un trazo
+
+
+* **f**: mueve la tortuga hacia adelante  la cantidad de pixeles definidos con la instrucción **lar**
+
+
+* Letras mayúsculas (excepto B y F) que indican las variables de las reglas.
 
 Finalmente viene la instrucción **iter** que indica cuantas veces se itera las reglas para obtener el dibujo.
 
 
 ejemplo: así luciría un archivo de entrada
 
-
-> lar 20
+```
+lar 20
 ang 60
 axi A
 A:A+ZF++ZF-FA--FAFA-ZF+
 Z:-FA+ZFZF++ZF+FA--FA-A
 iter 2
-
+```   
 
 Al interpretar este archivo el programa dibuja una figura  similar a esta:
 
-[![](http://www.programando.org/blog/wp-content/uploads/2012/07/ejemplo-lsystem-2.png)](http://www.programando.org/blog/wp-content/uploads/2012/07/ejemplo-lsystem-2.png)
+[![](/images/2012/07/ejemplo-lsystem-2.png)](/images/2012/07/ejemplo-lsystem-2.png)
 
 El desafío consiste en escribir un programa que reciba un archivo con el formato definido, y luego usarlo para esta imagen:
 
 
- [![](http://www.programando.org/blog/wp-content/uploads/2012/07/desafio-julio-agosto.png)](http://www.programando.org/blog/wp-content/uploads/2012/07/desafio-julio-agosto.png)
+ [![](/images/2012/07/desafio-julio-agosto.png)](/images/2012/07/desafio-julio-agosto.png)
 
 
 
