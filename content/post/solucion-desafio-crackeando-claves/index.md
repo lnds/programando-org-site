@@ -5,7 +5,7 @@ title: "Solucion Desafio Crackeando Claves"
 subtitle: ""
 summary: ""
 authors: []
-tags: [desafios, desafio20191208]
+tags: [desafíos, desafio20191208]
 categories: []
 date: 2019-12-15T10:10:52-03:00
 lastmod: 2019-12-15T10:10:52-03:00
