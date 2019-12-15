@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Desafio Primes Crypto"
+title: "Desafío Primes Crypto"
 subtitle: ""
 summary: ""
 authors: []
 tags: [desafios, números primos, criptografía, desafio20191215]
-categories: []
+categories: [desafíos]
 date: 2019-12-15T13:55:06-03:00
 lastmod: 2019-12-15T13:55:06-03:00
 featured: true
@@ -17,7 +17,7 @@ draft: false
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
 
 # Projects (optional).

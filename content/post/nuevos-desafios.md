@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: []
 tags: [desafíos, desafio20191208]
-categories: []
+categories: [desafíos]
 date: 2019-12-08T11:39:03-03:00
 lastmod: 2019-12-08T11:39:03-03:00
 featured: true
