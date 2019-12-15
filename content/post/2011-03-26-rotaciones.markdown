@@ -15,7 +15,7 @@ tags:
 - rotaciones
 ---
 
-Cada cierto tiempo voy a escribir un articulo más avanzado, orientado a mis amigos programadores profesionales, donde introduciremos un problema de mayor complejidad, estos quedarán almacenados bajo la categoría de **[Técnicas Avanzadas](http://www.programando.org/blog/category/tecnicas-avanzadas/)**.
+Cada cierto tiempo voy a escribir un articulo más avanzado, orientado a mis amigos programadores profesionales, donde introduciremos un problema de mayor complejidad, estos quedarán almacenados bajo la categoría de **[Técnicas Avanzadas](https://www.programando.org/blog/category/tecnicas-avanzadas/)**.
 
 Este artículo lo escribí en 2006 en una versión que no prosperó de programando.org, ahora lo reciclé, aproveché de corregir algunos errores, reclasificarlo, y además le incorporé un par de ejercicios.
 

@@ -15,7 +15,7 @@ tags:
 - poker
 ---
 
-[![](http://www.programando.org/blog/wp-content/uploads/2011/04/Blackjack_game_example-199x300.jpg)](http://www.programando.org/blog/wp-content/uploads/2011/04/Blackjack_game_example.jpg)Hasta ahora en las lecciones previas hemos aprendido como generar cartas y barajarlas. A continuación vamos a realizar una **especificación de requerimientos** para el juego de Black Jack.
+[![](/images/2011/04/Blackjack_game_example-199x300.jpg)](/images/2011/04/Blackjack_game_example.jpg)Hasta ahora en las lecciones previas hemos aprendido como generar cartas y barajarlas. A continuación vamos a realizar una **especificación de requerimientos** para el juego de Black Jack.
 
 **El juego de Black Jack**
 
@@ -47,7 +47,7 @@ El jugador puede **retirarse**, solo al inicio de la partida, en este caso se le
 Veamos las componentes del juego. Por un lado tenemos las barajas, que ya hemos estudiadio anteriormente. Por otro los jugadores, dos en nuestro caso, el usuario del programa, que llamaremos simplemente jugador. Por otro tendremos el computador que actúa como croupier.
 
 **El croupier**
-[![](http://www.programando.org/blog/wp-content/uploads/2011/04/Croupier-150x150.jpg)](http://www.programando.org/blog/wp-content/uploads/2011/04/Croupier.jpg)
+[![](/images/2011/04/Croupier-150x150.jpg)](/images/2011/04/Croupier.jpg)
 
 El croupier está obligado a tener sobre 16  puntos en su mano, y si saca 17 puntos en su mano se planta de inmediato.
 

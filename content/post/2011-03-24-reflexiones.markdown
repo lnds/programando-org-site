@@ -38,7 +38,7 @@ Además espero explicar al futuro programador que nunca se olvide del objetivo d
 
 No pretendo que ustedes aprendan a programar al final de los próximos 21 artículos, o lo que nos tome esta aventura de aprender a programar, lo que quiero es despertarles el apetito y orientarlos lo suficiente para que empiecen en este arte y logren dominar lo suficiente para que desarrollen sus propias destrezas.
 
-[![](http://www.programando.org/blog/wp-content/uploads/2011/03/manga5-150x150.jpg)](http://www.programando.org/blog/wp-content/uploads/2011/03/manga5.jpg)
+[![](/images/2011/03/manga5-150x150.jpg)](/images/2011/03/manga5.jpg)
 
 Espero que sigamos divirtiéndonos, y que me ayudes a difundir este esfuerzo. Gracias por visitar este blog.
 

@@ -27,7 +27,7 @@ Partamos por lo básico, los naipes, ¿cómo representaremos los naipes en nuest
 
 Bueno, para eso aprendimos algo sobre secuencias en nuestra [lección anterior](http://www.programando.org/blog/2011/03/listas/).
 
-[![](http://www.programando.org/blog/wp-content/uploads/2011/03/palos.png)](http://www.programando.org/blog/wp-content/uploads/2011/03/palos.png)El Black Jack se juega con la baraja francesa (o inglesa) de 52 cartas, dividida en 4 palos: corazones, diamantes, tréboles y picas.
+[![](/images/2011/03/palos.png)](/images/2011/03/palos.png)El Black Jack se juega con la baraja francesa (o inglesa) de 52 cartas, dividida en 4 palos: corazones, diamantes, tréboles y picas.
 
 Cada carta entonces se representa por su valor y su palo. La mejor manera de representar esto es mediante una dupla: (valor, palo).
 
@@ -126,7 +126,7 @@ Ejercicios:
   3. Escribe una función que reciba como argumento el palo ('C', 'D', 'T' o 'P') y retorne sólo las cartas que tienen número (2 al 10).
 
 
-  4. El sitio [www.random.org](http://www.random.org/) permite generar números aleatorios (al azar). En particular si vas a [esta dirección](http://www.random.org/sequences/?min=1&max=52&col=1&format=html&rnd=new) obtendrás una lista de números aleatorios entre 0 y 51, escribelos en una lista por extensión y luego genera una función que reciba esta lista de números y retorne la baraja ordenada de acuerdo a la secuencia. (por ejemplo, si la lista fuera [4,5,6] entonces al llamar a la función con esta lista como argumento obtendríamos: [(5, 'C'), (6, 'C'), (7, 'C')]).
+  4. El sitio [www.random.org](https://www.random.org/) permite generar números aleatorios (al azar). En particular si vas a [esta dirección](https://www.random.org/sequences/?min=1&max=52&col=1&format=html&rnd=new) obtendrás una lista de números aleatorios entre 0 y 51, escribelos en una lista por extensión y luego genera una función que reciba esta lista de números y retorne la baraja ordenada de acuerdo a la secuencia. (por ejemplo, si la lista fuera [4,5,6] entonces al llamar a la función con esta lista como argumento obtendríamos: [(5, 'C'), (6, 'C'), (7, 'C')]).
 
 
 
