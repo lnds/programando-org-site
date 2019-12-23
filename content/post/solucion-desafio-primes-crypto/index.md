@@ -110,4 +110,5 @@ Las palabras cifradas eran:
 
 Gracias por participar a Rodrigo Guzman (con una solución en php), a Denis Fuenzalizda (en clojure), Rodrigo Tobar (Python), Joel Iturra (Java) y Marcelo Theone (en javascript). Son las cinco soluciones que pueden ver en los comentarios del post original.
 
+Estas semanas de fin de año no tendremos desafío, pero publicaré un artículo en estos días, así que atentos. Me gustaría ver otras soluciones a este desafío y que aumente la participación para los que vienen.
 
