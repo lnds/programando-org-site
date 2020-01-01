@@ -561,6 +561,12 @@ manos
 
 Con esto ya tenemos lo necesario para armar nuestro juego, que veremos en el post de la siguiente semana.
 
+## Ejercicios
+
+¿Puedes escribir mejor código para esto?
+¿Puedes escribirlo en otro lenguaje de programación?
+∫ ¿Cuáles son las mayores diferencias?
+
 ## Notas
 
 Este post está basado en mi solución al siguiente ejercicio encontrado en el sitio [Exercism.io](https://exercism.io/): https://exercism.io/tracks/rust/exercises/poker
