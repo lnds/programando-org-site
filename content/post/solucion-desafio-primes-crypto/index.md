@@ -5,8 +5,8 @@ title: "Solucion Desafio Primes-Crypto"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
-categories: []
+tags: [desafíos, "números primos"]
+categories: [criptografía]
 date: 2019-12-22T22:24:03-03:00
 lastmod: 2019-12-22T22:24:03-03:00
 featured: false
