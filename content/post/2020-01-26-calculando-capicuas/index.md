@@ -5,7 +5,7 @@ title: "Calculando Capicuas"
 subtitle: "solución al desafío"
 summary: ""
 authors: []
-tags: [desafíos, capicuas, "programación funcional"]
+tags: [desafíos, capicúas, "programación funcional", "desafio20200126"]
 categories: [desafíos, "programación funcional", "patrones", "patrones funcionales"]
 date: 2020-01-26T15:27:41-03:00
 lastmod: 2020-01-26T15:27:41-03:00
