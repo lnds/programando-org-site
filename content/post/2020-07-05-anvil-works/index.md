@@ -37,7 +37,7 @@ Esta corriente tiene sus pro y contra, pero hay que reconocer que los desarrolla
 sufrido la presión por entregar software cada vez más rápido. 
 
 En estas últimas semanas he estado investigando algunas de estas herramientas, y fue a través de un dato
-que me entregó Agustín Villena que llegé a Anvil.Works, una herramienta de desarrollo LowCode que permite
+que me entregó Agustín Villena que llegué a Anvil.Works, una herramienta de desarrollo LowCode que permite
 desarrollar en Python.
 
 Anvil me recuerda en muchos aspectos a las herramientas RAD de los años noventa, como Delphi o Visual Basic, pero

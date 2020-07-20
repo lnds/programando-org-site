@@ -60,6 +60,18 @@ highlight = true
 highlight_languages = ["r", "rust", "go", "c", "c++", "haskell", "java", "kotlin", "erlang", "scala", "f#"]  # Add support for highlighting additional languages
 highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
+highlightjs = true
+highlightjsstyle = "github"
+highlightjslanguages = ["r", "rust", "go", "c", "c++", "haskell", "java", "kotlin", "erlang", "scala", "f#"] 
+
+relatedPosts = true
+
+
+themeColor = "theme-base-08"
+layoutReverse = true
+
+googleAnalytics  = "UA-17872187-1"
+
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
 math = true
@@ -246,5 +258,6 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = "UA-17872187-1"
+  google_analytics =  "UA-17872187-1"
   google_tag_manager = ""
+

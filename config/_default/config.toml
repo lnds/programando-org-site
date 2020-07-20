@@ -1,74 +1,66 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
-
-# Title of your site
-title = "La Sombra de Dijkstra"
-
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+## Basic Configuration
 baseurl = "/"
+languageCode = "en"
 
-# Enter a copyright notice to display in the site footer.
-# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy; 2019 Eduardo Díaz Cortés"
+title = "La Sombra de Dijkstra"
+theme = "hyde-hyde"
 
-############################
-## Advanced options below ##
-############################
-
-# Name of Academic theme folder in `themes/`.
-theme = "academic"
-
-# Get last modified date for content from Git?
-enableGitInfo = false
-
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "es"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
-removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
-
-paginate = 10  # Number of items per page in paginated lists.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
+## Hugo Built-in Features
 disqusShortname = "programando"
-uglyurls = true
+googleAnalytics = "UA-17872187-1"
+enableRobotsTXT = true
 
-[outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-  section = [ "HTML", "RSS" ]
+# summarylength = 30
 
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
+#paginate = 5
 
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
+## Site Settings
+[params]
+    author = "Eduardo Díaz"
+    title = "La Sombra de Dijkstra"
+    # description = "..."
+    authorimage = "/img/hugo.png"
+    dateformat = "2006-01-02"
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
+    # sidebar, copyright & license
+    copyright = "&copy; Eduardo Díaz Cortés"
+    since = 2019
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
 
-[imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "lnds"
+    twitter = "lnds"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    # email = "your-email@example.com"
+    gravatar = "ediaz@dcc8090.cl"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
 
 [permalinks]
     post = "/blog/:year/:month/:day/:slug"

@@ -7,6 +7,10 @@
   languageCode = "es-cl"
   # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
+[en]
+  languageCode = "es-cl"
+  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+
 #[zh]
 #  languageCode = "zh-Hans"
 #  contentDir = "content/zh"
