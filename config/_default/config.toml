@@ -49,6 +49,7 @@ enableRobotsTXT = true
     # orcid = "<xxxx-xxxx-xxxx-xxxx>"
     # email = "your-email@example.com"
     gravatar = "ediaz@dcc8090.cl"
+    patreon = "lnds"
 
 ## Main Menu
 [[menu.main]]
