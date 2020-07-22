@@ -17,8 +17,8 @@ tags:
 - with
 ---
 
-Si recuerdan en el [capítulo anterior](http://www.programando.org/blog/2011/04/codigo-de-maquina/), de nuestro [curso de programación](http://www.programando.org/blog/aprende-a-programar/), definimos una **máquina virtual** con un código, o lenguaje de máquina bien preciso. En el diagrama sin embargo aparece una componente que no explicamos, se trata del **módulo loader. **Acá está la figura para que la recuerden:
-[![](http://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)](http://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)
+Si recuerdan en el [capítulo anterior](https://www.programando.org/blog/2011/04/codigo-de-maquina/), de nuestro [curso de programación](https://www.programando.org/blog/aprende-a-programar/), definimos una **máquina virtual** con un código, o lenguaje de máquina bien preciso. En el diagrama sin embargo aparece una componente que no explicamos, se trata del **módulo loader. **Acá está la figura para que la recuerden:
+[![](https://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)](https://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)
 
 El módulo **loader **se encarga de cargar un programa, escrito en el lenguaje ensamblador, a la memoria de nuestra máquina virtual, para su posterior ejecución.
 

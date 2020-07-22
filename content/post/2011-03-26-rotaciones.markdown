@@ -33,7 +33,7 @@ Una manera es copiar los primeros i elementos en un arreglo temporal, desplaza
 ## El poder de las primitivas
 
 
-Este problema aparece en el clásico libro [Programming Pearls (2nd Edition)](http://www.amazon.com/gp/product/0201657880?ie=UTF8&tag=lanaturaledel-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0201657880)![](http://www.assoc-amazon.com/e/ir?t=lanaturaledel-20&l=as2&o=1&a=0201657880), de Jon Bentley, y cuando lo ví lo encontré asombroso.
+Este problema aparece en el clásico libro [Programming Pearls (2nd Edition)](https://www.amazon.com/gp/product/0201657880?ie=UTF8&tag=lanaturaledel-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0201657880)![](https://www.assoc-amazon.com/e/ir?t=lanaturaledel-20&l=as2&o=1&a=0201657880), de Jon Bentley, y cuando lo ví lo encontré asombroso.
 
 Primero, vamos a definir una primitiva **reverse**, esta función toma un arreglo y lo invierte, por ejemplo, el arreglo {a,b,c,d}, puede ser invertido con el operador reverse (r) de la siguiente manera {a,b,c,d}r = {d,c,b,a}. Supongamos que tenemos un arreglo A=ab, donde a corresponde a la parte izquierda del arreglo, y que contiene los primero i elementos, y b es el resto del arreglo. Entonces comenzando con ab, primero invertimos a obtieniendo arb, luego invertimos b, obteniendo arbr, y el paso final es invertir todo (arbr)r.
 

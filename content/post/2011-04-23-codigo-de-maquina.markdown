@@ -15,7 +15,7 @@ tags:
 - programación de bajo nivel
 ---
 
-En el  [capítulo anterior](http://www.programando.org/blog/2011/04/la-maquina-universal/) de nuestro [curso de programación](http://www.programando.org/blog/aprende-a-programar/) vimos algo de la historia del desarrollo del computador digital. Pero, ¿cómo funciona un computador? Para responder esta pregunta vamos a **simular** el funcionamiento de un computador usando Python. Lo que vamos a construir es un **modelo de máquina**, un híbrido entre máquina de Turing y de Von Neumann.
+En el  [capítulo anterior](https://www.programando.org/blog/2011/04/la-maquina-universal/) de nuestro [curso de programación](https://www.programando.org/blog/aprende-a-programar/) vimos algo de la historia del desarrollo del computador digital. Pero, ¿cómo funciona un computador? Para responder esta pregunta vamos a **simular** el funcionamiento de un computador usando Python. Lo que vamos a construir es un **modelo de máquina**, un híbrido entre máquina de Turing y de Von Neumann.
 
 Si recuerdan bien, la idea de Turing era construir una máquina que opera leyendo símbolos desde una larga cinta de papel, y escribiendo en esta misma cinta los resultados de las operaciones, las que dependen obviamente de la interpretación de estos símbolos. En el caso de la arquitectura de Von Neumann tenemos una memoria principal, esta memoria contiene las instrucciones a ejecutar. Lo que hace una computadora es ir interpretando las instrucciones que están almacenadas en la memoria una por una.
 
@@ -138,7 +138,7 @@ Entonces nuestra lista de instrucciones para sumar 20 y 45 se **codificaría** c
 
 
 
-(*) Hablamos de los números binarios en  [este capítulo](http://www.programando.org/blog/2011/03/partir-desde-cero/).**
+(*) Hablamos de los números binarios en  [este capítulo](https://www.programando.org/blog/2011/03/partir-desde-cero/).**
 **
 
 **Nuestra propia máquina virtual**
@@ -153,7 +153,7 @@ Nuestro objetivo es construir un programa en Python que simule una máquina que 
 
 ** **
 
-[caption id="attachment_271" align="aligncenter" width="564" caption="Diagrama de Bloques de nuestra máquina virtual"]**[](http://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu.png)[![](http://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)](http://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)
+[caption id="attachment_271" align="aligncenter" width="564" caption="Diagrama de Bloques de nuestra máquina virtual"]**[](https://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu.png)[![](https://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)](https://www.programando.org/blog/wp-content/uploads/2011/04/programando-cpu1.png)
 **[/caption]
 
 
@@ -162,7 +162,7 @@ Nuestro objetivo es construir un programa en Python que simule una máquina que 
 
 ** **La figura corresponde a un **diagrama de bloques, **un tipo de dibujo muy usado en el modelamiento de sistemas informáticos. La posición de cada bloque, o caja, nos indica el grado de dependencia de cada parte del sistema.
 
-[![](http://www.programando.org/blog/wp-content/uploads/2011/04/cajonera1-169x300.gif)](http://www.programando.org/blog/wp-content/uploads/2011/04/cajonera1.gif)El primer bloque, o componente, de nuestra máquina es la **memoria**. Imaginen que la memoria es como una gran _cajonera_. Dentro de cada cajón de nuestra memoria se almacenan  **palabras **(word en inglés), que corresponden a instrucciones o datos. Además imaginaremos que cada cajón ha sido numerado partiendo, como siempre, desde cero. (Estos cajones son llamados también celdas de memoria).
+[![](https://www.programando.org/blog/wp-content/uploads/2011/04/cajonera1-169x300.gif)](https://www.programando.org/blog/wp-content/uploads/2011/04/cajonera1.gif)El primer bloque, o componente, de nuestra máquina es la **memoria**. Imaginen que la memoria es como una gran _cajonera_. Dentro de cada cajón de nuestra memoria se almacenan  **palabras **(word en inglés), que corresponden a instrucciones o datos. Además imaginaremos que cada cajón ha sido numerado partiendo, como siempre, desde cero. (Estos cajones son llamados también celdas de memoria).
 
 La **unidad de control** (**CU **por Control Unit, en inglés) es como un sirviente que va abriendo los cajones, uno por uno, y lee las palabras que se encuentra en cada cajón. ¿Cómo sabe la **CU** cuál cajón abrir? Para eso nuestra máquina tiene una variable especial que llamaremos el puntero de instrucciones (instruction pointer, **IP**). Si el IP es cer0, entonces la siguiente palabra a leer está en la cajonera cero.
 
@@ -172,7 +172,7 @@ Hay instrucciones que representan operaciones aritméticas o lógicas, estas son
 
 Con esto tenemos todos los elementos básicos de nuestra máquina. Por cierto, esta máquina tiene mecanismos para recibir datos, y para leer datos. Estas instrucciones son manejadas con los módulos **input** y **output**.
 
-Lo que vamos a construir se conoce como una **máquina virtual**,  una simulación de una máquina o computadora real, implementada mediante  software. Lo que aprenderemos en este y el próximo capítulo es la base  conceptual de cosas tan avanzadas como la [Java Virtual Machine](http://es.wikipedia.org/wiki/M%C3%A1quina_virtual_Java), o el ambiente [CLR de Microsoft.Net](http://es.wikipedia.org/wiki/Common_Language_Runtime). Como veremos más adelante el mismo Python utiliza este tipo de mecanismos.
+Lo que vamos a construir se conoce como una **máquina virtual**,  una simulación de una máquina o computadora real, implementada mediante  software. Lo que aprenderemos en este y el próximo capítulo es la base  conceptual de cosas tan avanzadas como la [Java Virtual Machine](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual_Java), o el ambiente [CLR de Microsoft.Net](https://es.wikipedia.org/wiki/Common_Language_Runtime). Como veremos más adelante el mismo Python utiliza este tipo de mecanismos.
 
 En los párrafos anteriores describimos brevemente las componentes de nuestra máquina. Lo que falta es describir el tipo de instrucciones específicas que soporta nuestra máquina.
 
@@ -965,13 +965,13 @@ Creo que hemos visto muchas cosas en este capítulo, y asimilarlas puede ser com
 
 
 	
-  * La [página en wikipedia sobre lenguaje ensamblador](http://es.wikipedia.org/wiki/Lenguaje_ensamblador), es un buen punto de partida.
+  * La [página en wikipedia sobre lenguaje ensamblador](https://es.wikipedia.org/wiki/Lenguaje_ensamblador), es un buen punto de partida.
 
 	
-  * El [ASM Book](http://www.asmcommunity.net/book/) es un esfuerzo para escribir un libro comunitario donde se explica el lenguaje ensamblador.
+  * El [ASM Book](https://www.asmcommunity.net/book/) es un esfuerzo para escribir un libro comunitario donde se explica el lenguaje ensamblador.
 
 	
-  * El libro [Code: The Hidden Language of Computer Hardware and Software](http://www.amazon.com/gp/product/0735611319/ref=as_li_qf_sp_asin_tl?ie=UTF8&tag=lanaturaledel-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735611319)![](http://www.assoc-amazon.com/e/ir?t=lanaturaledel-20&l=as2&o=1&a=0735611319) (Código: El Lenguaje Oculto del Hardware y Software del Computador), es una excelente introducción sobre como funcionan las cosas. En ese libro se profundiza aún a más bajo nivel lo expuesto en este capítulo, pero de una manera gradual y bastante didáctica.
+  * El libro [Code: The Hidden Language of Computer Hardware and Software](https://www.amazon.com/gp/product/0735611319/ref=as_li_qf_sp_asin_tl?ie=UTF8&tag=lanaturaledel-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735611319)![](https://www.assoc-amazon.com/e/ir?t=lanaturaledel-20&l=as2&o=1&a=0735611319) (Código: El Lenguaje Oculto del Hardware y Software del Computador), es una excelente introducción sobre como funcionan las cosas. En ese libro se profundiza aún a más bajo nivel lo expuesto en este capítulo, pero de una manera gradual y bastante didáctica.
 
 
 **Ejercicios**
