@@ -1,5 +1,10 @@
 {{ with .Site.Params.copyright }}
 <div class="copyright">
+  Puedes auspiciar este blog en <a href="https://www.patreon.com/lnds">Patreon</a>: &nbsp;
+  <a href="https://www.patreon.com/bePatron?u=6503283" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+  <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+</div>
+<div class="copyright">
   &copy; {{ with $.Site.Params.since }}{{ if lt . now.Year }}{{ . | safeHTML }} - {{ end }}{{ end }}{{ now.Format "2006"}} {{ . | safeHTML }}
   {{ with $.Site.Params.license }}
     <a href="{{$.Site.Params.licenseURL | safeHTML}}">{{ . | safeHTML }}</a>
