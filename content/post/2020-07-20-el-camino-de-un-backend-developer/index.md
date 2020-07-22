@@ -7,7 +7,7 @@ tags: [internet, aprendizaje, roadmaps, competencias]
 categories: ['backend developer']
 date: 2020-07-05T19:55:51-04:00
 lastmod: 2020-07-08T19:55:51-04:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
