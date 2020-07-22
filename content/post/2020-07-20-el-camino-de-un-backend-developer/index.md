@@ -2,9 +2,9 @@
 title: "El camino de un Backend Developer (en 2020)"
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: ['Eduardo Díaz']
+tags: [internet, aprendizaje, roadmaps, competencias]
+categories: ['backend developer']
 date: 2020-07-05T19:55:51-04:00
 lastmod: 2020-07-08T19:55:51-04:00
 featured: false
