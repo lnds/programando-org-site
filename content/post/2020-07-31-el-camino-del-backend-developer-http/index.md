@@ -86,7 +86,7 @@ Es en esta capa donde se ejecutan nuestro servicios finalmente.
 
 Este diagrama resume las 7 capas del modelo OSI:
 
-![](capas-osi.png)
+{{<figure src="capas-osi.png" caption="Imagen: Capa OSI, tomado de Wikipedia">}}
 
 Cuando un cliente establece una interacción con un servicio en un servidor nuestros datos pasan por cada una de estas capas, partiendo desde la capa de aplicación en el servidor hasta llegar al cable físico y después al llegar al host del servidor la data "asciende" por cada capa que se encarga de realizar los controles respectivos hasta que la data llega a la capa aplicativa del servicio.
 
