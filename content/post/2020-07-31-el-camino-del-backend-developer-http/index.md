@@ -5,7 +5,7 @@ draft: false
 subtitle: ""
 summary: ""
 authors: ['Eduardo Díaz']
-tags: [internet, aprendizaje, roadmaps, competencias]
+tags: [internet, aprendizaje, roadmaps, competencias, redes, protocolos, osi]
 categories: ['backend developer']
 featured: true
 
