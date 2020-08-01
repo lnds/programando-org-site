@@ -8,6 +8,15 @@ authors: ['Eduardo Díaz']
 tags: [internet, aprendizaje, roadmaps, competencias]
 categories: ['backend developer']
 featured: true
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
 ---
 
 Seguimos con esta serie de artículos basado en el Backend Developer Roadmap publicado en el sitio [roadmap.sh](https://roadmap.sh/).
@@ -15,7 +24,7 @@ Seguimos con esta serie de artículos basado en el Backend Developer Roadmap pub
 En el [artículo anterior](/blog/2020/07/05/el-camino-de-un-backend-developer-en-2020/) vimos los rudimentos de cómo funciona Internet. Escribimos un servidor y un cliente en python para un servicio muy sencillo.
 Ahora, de acuerdo a nuestro mapa debemos entender qué es HTTP. 
 
-![](avance.png)
+![](featured.png)
 
 Así que vamos a ese asunto. Pero antes, algo de teoría, porque siento que es necesario entender algunos conceptos básicos de protocolos antes de continuar.
 
