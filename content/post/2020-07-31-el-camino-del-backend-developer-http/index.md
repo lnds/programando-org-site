@@ -16,7 +16,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-
+  position: 3
 ---
 
 Seguimos con esta serie de artículos basado en el Backend Developer Roadmap publicado en el sitio [roadmap.sh](https://roadmap.sh/).

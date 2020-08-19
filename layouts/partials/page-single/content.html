@@ -25,7 +25,17 @@
   {{ end }}
   <div class="post">
     {{ .Content }}
+
+    <hr>
+    <div class="auspicio" >
+      <p><b>¿Te gustó?</b></p>
+      <p>
+        Puedes invitarme a un café: <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Apóyame en Ko-fi', '#29abe0', 'X8X420K04');kofiwidget2.draw();</script> 
+      </p>
+    </div>
   </div>
+  
+  
   {{ partial "page-single/post-navigation.html" . }}
   {{ partial "page-single/post-related.html" . }}
   {{ partial "page-single/post-comment.html" . }}
