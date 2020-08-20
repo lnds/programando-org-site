@@ -323,7 +323,7 @@ Lo que hacemos es que si el "request" empieza con el contenido de la constante `
 
 Si navegamos a cualquier uri distinta a "/" entonces la respuesta será esta:
 
-![](mozilla-4/png)
+![](mozilla-4.png)
 
 Y con esto tenemos un servidor web funcional. Pero apenas hemos dado los primeros pasos para implementar el protocolo HTTP, para cubrirlo por completo falta más funcionalidad, la descripción completa del protocol está especificada en el RFC-7540 acá: https://tools.ietf.org/html/rfc7540. 
 

@@ -156,7 +156,7 @@ En un browser se combinan muchas técnicas y subdisciplinas de programación:
 
 Y por supuesto mucho ingenio y optimización, porque todos esperamos que nuestros navegadores no fallen.
 
-Cómo podrán ver, el mundo de los navegadores es fascinante y podría dar para una serie tan extensa como la que ya estoy escribiendo. Les recomiendo fuertemente investigar y leer la referencia mencionada, en el próximo capítulo de esta serie jugaremos un poco con el DOM de HTML y haremos algo de lo que hacen los navegadores en el módulo de Rendering. Los espero.
+Cómo podrán ver, el mundo de los navegadores es fascinante y podría dar para una serie tan extensa como la que ya estoy escribiendo. Les recomiendo fuertemente investigar y leer la referencia mencionada, en un próximo capítulo de esta serie jugaremos un poco con el DOM de HTML y haremos algo de lo que hacen los navegadores en el módulo de Rendering. Los espero.
 
 
 Ejercicios:
