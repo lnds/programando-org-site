@@ -22,7 +22,7 @@ image:
 
 Este es el tercer artículo de esta serie, basada en el Backend Developer Roadmap publicado en el sitio [roadmap.sh](https://roadmap.sh/).
 
-En el [port anterior](/blog/2020/07/031/el-camino-de-un-backend-developer-http/) revisamos las diversas capas OSI y cómo opera el protocolo HTTP. Continuando con nuestro mapa, lo que debemos revisar ahora es cómo funcionan los browsers o navegadores web.
+En el [post anterior](/blog/2020/07/031/el-camino-de-un-backend-developer-http/) revisamos las diversas capas OSI y cómo opera el protocolo HTTP. Continuando con nuestro mapa, lo que debemos revisar ahora es cómo funcionan los browsers o navegadores web.
 
 ![](featured.png)
 
