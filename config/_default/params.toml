@@ -62,7 +62,7 @@ highlight_style = "github"  # For supported styles, see https://cdnjs.com/librar
 
 highlightjs = true
 highlightjsstyle = "github"
-highlightjslanguages = ["r", "rust", "go", "c", "c++", "haskell", "java", "kotlin", "erlang", "scala", "f#"] 
+highlightjslanguages = ["r", "rust", "go", "c", "cplusplus", "haskell", "java", "kotlin", "erlang", "scala", "fsharp", "bash"] 
 
 relatedPosts = true
 
