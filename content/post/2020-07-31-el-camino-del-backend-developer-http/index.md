@@ -64,7 +64,7 @@ Cuando usamos Sockets operamos a este nivel.
 
 ### Capa 5: Sesión
 
-Esta capa se encarga de mantern y controlar el enlace entre dos dispositivos de red que intercambian datos. Esta se encarga de reanudar la conexión si se interrumpe. 
+Esta capa se encarga de mantener y controlar el enlace entre dos dispositivos de red que intercambian datos. Esta se encarga de reanudar la conexión si se interrumpe. 
 
 A este nivel encontramos protocolos como SMPP, ADSP (AppleTalk), PAP, NetBIOS, RTCP,  RPC o H.245.
 
@@ -74,7 +74,7 @@ Hoy en día con las aplicaciones multimedias esta capa es esencial.
 
 Acá nos preocupamos de la representación de la información, para que los distintos equipos, que pueden tener representanciones internas distintas de la información, reconozcan la data que reciben.
 
-Esta es la primera capa que trabaja con el contenido de la información que se comunica. Acá se ve la sintáxis y la semántica de los datos transmitodos. Acá podemos cifrar y comprimir los datos. 
+Esta es la primera capa que trabaja con el contenido de la información que se comunica. Acá se ve la sintáxis y la semántica de los datos transmitidos. Acá podemos cifrar y comprimir los datos. 
 
 ### Capa 7: Aplicación
 
