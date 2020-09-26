@@ -3,7 +3,7 @@ baseurl = "/"
 languageCode = "en"
 
 title = "La Sombra de Dijkstra"
-theme = ["hugo-atom-feed", "hyde-hyde"]
+theme = "hyde-hyde"
 
 ## Hugo Built-in Features
 disqusShortname = "programando"
