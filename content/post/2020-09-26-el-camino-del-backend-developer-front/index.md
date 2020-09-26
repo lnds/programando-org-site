@@ -1,5 +1,5 @@
 ---
-title: "El Camino Del Backend Developer: Nociones de Front End"
+title: "El Camino Del Backend Developer: ¿Front End?"
 date: 2020-09-26T10:41:30-04:00
 draft: false
 subtitle: ""
