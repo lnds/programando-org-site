@@ -41,9 +41,6 @@ intereses:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'about/#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/lnds
@@ -71,3 +68,6 @@ La Sombra de Dijsktra es un sitio para discutir sobre el árte y la práctica de
 El nombre es un homenaje a Edgser Dijkstra, famoso investigador y teórico de la ciencia de la computación. Premio Turing en 1992, puedes leer más sobre él en [esta entrada en wikipedia](https://es.wikipedia.org/wiki/Edsger_Dijkstra)
 
 Si encuentras errores en este blog puedes enviar un Pull Request con la corrección a través de este repositorio github: [https://github.com/lnds/programando-org-site](https://github.com/lnds/programando-org-site)
+
+
+Si te gusta y quieres apoyar el contenido de este blog entonces: {{< koffe >}}
