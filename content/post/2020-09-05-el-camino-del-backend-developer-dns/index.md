@@ -21,7 +21,6 @@ image:
 
 Continuemos nuestro camino por la ruta del [backend developer](/categories/backend-developer/), donde estamos siguiendo la recomendación del sitio [roadmap.sh](https://roadmap.sh/), sobre las competencias básicas que debería tener un desarrollador backend en 2020.
 
-![](featured.png)
 
 Como pueden ver hemos cubierto los primeros tres hitos de la izquierda, y hoy en este post empezaremos a conocer de que trata todo eso de los nombres de dominio, que significa hosting y como funciona DNS.
 
