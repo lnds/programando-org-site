@@ -15,3 +15,5 @@ subtitle = "Un blog dedicado a la programación y desarrollo de software"
   # Text color (true=light or false=dark).
   text_color_light = true
 +++
+
+![](/assets/images/Dijkstra.jpg)

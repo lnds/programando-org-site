@@ -57,8 +57,8 @@ description = ""
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_languages = ["r", "python", "c", "cpp", "kotlin", "rust", "java"]  # Add support for highlighting additional languages
+highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -88,7 +88,7 @@ show_related = {post = true}
 ############################
 
 ## Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
+email = ""
 #phone = "888 888 88 88"
 #
 ## Address
@@ -127,7 +127,7 @@ email = "test@example.org"
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "lnds"
 
 ############################
 ## Regional Settings
@@ -135,9 +135,9 @@ twitter = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "2006-01-02"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
 address_format = "en-us"
@@ -252,7 +252,7 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
+  google_analytics = "UA-17872187-1"
   google_tag_manager = ""
 
 ############################
