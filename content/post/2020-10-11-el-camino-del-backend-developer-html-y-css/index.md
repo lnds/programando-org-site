@@ -35,7 +35,7 @@ No es la idea de este post enseñar estos lenguajes, sólo mostrar una perspecti
 
 Lo primero que vamos a aclarar es que HTML y CSS son lenguajes formales, pero no se les considera lenguajes de programación como tal, porque no tienen todo el poder y expresividad necesaria para implementar algoritmos.
 
-HTML es un lenguaje de marcado, igual que XML, y como tal sirve para describir la estructura de un documento[^1]. Desciende de [SGM](https://es.wikipedia.org/wiki/SGML) y fue propuesto por Tim Berners Lee en 1991.
+HTML es un lenguaje de marcado, igual que XML, y como tal sirve para describir la estructura de un documento[^1]. Desciende de [SGML](https://es.wikipedia.org/wiki/SGML) y fue propuesto por Tim Berners Lee en 1991.
 
 Sabemos que un documento es HTML porque empieza con la declaración SGML siguiente:
 
@@ -111,7 +111,7 @@ Acá vemos como un script PHP se conecta a una base de datos y si encuentra dato
 se encarga de desplegar una tabla con los datos.
 Noten como se mezcla el marcado HTML con el código propio del lenguaje.
 
-Para resolver esto se construyeron conceptos como las plantillas (templates), que permitieron hacer una separación entre HTML y la lógica de neogocios.
+Para resolver esto se construyeron conceptos como las plantillas (templates), que permitieron hacer una separación entre HTML y la lógica de negocios.
 
 ## El DOM
 
