@@ -220,10 +220,23 @@ El código completo se encuentra en este repo en GitHub: https://github.com/lnds
 
 Este simple ejemplo muestra las características más básicas del desarrollo front usando JavaScript y Ajax. 
 
+# Frontend en nuestros días
+
+
 Con esto hemos avanzado en nuestra jornada explorando los conocimientos básicos sobre front que todo desarrollador backend debe dominar. Es momento de tachar en nuestro roadmap:
 
 ![](roadmap.png)
 
+
+Antes de terminar tengo que aclarar algo, no es la intención de este post hablar de desarrollo moderno front.
+
+Ajax es una tecnología relativamente antigua y superada en gran parte por los frameworks y bibliotecas actuales.
+
+El desarrollo front actual se basa en bibliotecas como React, y componentes nuevas que reemplazan a XMLHttpRequest. Incluso hay una plétora de nuevos lenguajes que se usan en front como ELM y TypeScript.
+
+También se ha propuesto nuevos motores como Web Assembly, que recuerdan un poco a los applets de java. 
+
+No consideren esta serie de tres post como una guía definitiva de cómo se hace front. Tal como dije para aprender front moderno hay un [roadmap distinto](https://roadmap.sh/frontend), y probablemente ya desactualizado.
 
 Si te gusta esta serie te invito a compartirla y a apoyarla a través de [Kofi](https://ko-fi.ccom/).
 
