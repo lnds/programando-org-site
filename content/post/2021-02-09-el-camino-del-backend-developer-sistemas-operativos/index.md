@@ -4,8 +4,8 @@
 title: "El Camino Del Backend Developer: Sistemas Operativos"
 subtitle: ""
 summary: ""
-authors: []
-tags: [internet, aprendizaje, roadmaps, competencias, html, css, frontend]
+authors: ['Eduardo Díaz']
+tags: [aprendizaje, roadmaps, competencias, c, sistemas, 'sistemas operativos', backend]
 categories: ['backend developer']
 date: 2021-02-09T22:32:52-03:00
 lastmod: 2021-02-09T22:32:52-03:00
@@ -33,7 +33,7 @@ projects: []
 
 Ya entramos en la segunda parte de nuestro camino para formarnos con lo básico que debe conocer un desarrollador front end moderno. Esta vez, siguiendo la guía de [roadmap.sh](https://roadmap.sh/backend), partiremos con sistemas operativos. 
 
-Antes de continuar te recuerdo que esta serie de  artículos pueden ser apoyados a través de [Kofi](https://ko-fi.ccom/), si te interesa lo que estoy escribiendo, puedes invitarme a un café, o cerveza, a través de este link: https://ko-fi.com/lnds. He establecido una meta en ese sitio para poder publicar esta serie de artículos como un libro, así que si quieres apoyar la idea haz click acá:
+Antes de continuar te recuerdo que esta serie de  artículos pueden ser apoyados a través de [Kofi](https://ko-fi.com/), si te interesa lo que estoy escribiendo, puedes invitarme a un café, o cerveza, a través de este link: https://ko-fi.com/lnds. He establecido una meta en ese sitio para poder publicar esta serie de artículos como un libro, así que si quieres apoyar la idea haz click acá:
 
 {{< koffe >}}
 

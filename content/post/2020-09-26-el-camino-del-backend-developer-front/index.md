@@ -34,7 +34,7 @@ Puede parecer poco, pero la verdad es una gran cantidad de conceptos. Y con eso 
 
 Ahora vamos a empezar un segundo hito importante, que tiene que ver con adquirir un conocimiento básico de desarrollo frontend. Este artículo es más bien introductorio, y lo más contundente lo veremos en el siguiente artículo en que hablaremos sobre HTML, Javascript y CSS, a través de un ejercicio de programación.
 
-Antes de continuar te recuerdo que estos artículos pueden ser apoyados a través de [Kofi](https://ko-fi.ccom/), si te interesa lo que estoy escribiendo, puedes invitarme a un café, o cerveza, a través de este link: https://ko-fi.com/lnds. He establecido una meta en ese sitio para poder publicar esta serie de artículos como un libro, así que si quieres apoyar ese proyecto haz click acá:
+Antes de continuar te recuerdo que estos artículos pueden ser apoyados a través de [Kofi](https://ko-fi.com/), si te interesa lo que estoy escribiendo, puedes invitarme a un café, o cerveza, a través de este link: https://ko-fi.com/lnds. He establecido una meta en ese sitio para poder publicar esta serie de artículos como un libro, así que si quieres apoyar ese proyecto haz click acá:
 
 {{< koffe >}}
 
