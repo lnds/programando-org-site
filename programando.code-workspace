@@ -4,8 +4,12 @@
 			"path": "."
 		},
 		{
-			"path": "/Users/ediaz/work/src/github.com/lnds/desafios-programando.org"
+			"path": "../desafios-programando.org"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"pthread.h": "c"
+		}
+	}
 }

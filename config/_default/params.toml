@@ -254,6 +254,7 @@ plugins_js  = []
 [marketing]
   google_analytics = "UA-17872187-1"
   google_tag_manager = ""
+  google_site_verification="mugOP1i7zh_alpwgmPYYmoTiHNG8vXA_YXq1F0S2Gjc"
 
 ############################
 ## Content Management System
