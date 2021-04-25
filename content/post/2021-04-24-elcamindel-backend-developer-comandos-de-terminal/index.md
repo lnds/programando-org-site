@@ -29,9 +29,9 @@ image:
 projects: []
 ---
 
-Ha llegado el momento de terminar esta etapa de nuestro roadmap, con este artículo habremos completado la sección sobre conocimiento general de sistemas operativos. 
+Ha llegado el momento de terminar esta etapa de nuestro [roadmap](/blog/2020/07/05/el-camino-de-un-backend-developer-en-2020/), con este artículo habremos completado la sección sobre conocimiento general de sistemas operativos. 
 
-En esta oportunidad no será diferente. La guía provista por [roadmap.sh](https://roadmap.sh/backend) nos dice que deberíamos tener un conocimiento del uso del terminal y conocer los comandos más básicos del terminal. Entonces ese será el foco de este artículo, así que empecemos.
+La guía provista por [roadmap.sh](https://roadmap.sh/backend) nos dice que deberíamos tener un conocimiento del uso del terminal y de los comandos más básicos del terminal. Entonces ese será el foco de este artículo.
 
 Pero antes, te recuerdo que si te gusta esta [serie de artículos](/category/backend-developer/) puedes patrocinarla a través de la plataforma [Ko-fi](ko-fi.com/lnds). Parte de los aportes se usarán para editar y publicar un libro que contenga el material de esta serie, más algo más.
 
