@@ -112,7 +112,7 @@ Notarán que la primera linea del script es esta:
 
 El operador `#!` conocido como _shebang_, o _hashbang_, es usado en Unix para indicar que el script será interpretado por lo que viene a continuación del signo !. En este caso la expresión `/usr/bin/env bash` nos indica que se debe buscar el intérprete `bash` y ese shell es el que será usado para interpretar este script.
 
-Cuando en unix invocas `sh` estás usando el "Shell de Bourne", escrito por Stephen Bourne, que fue el que reemplazó al Shell de Thompson. Normalmente este shell se encuentra en `/bin/sh` en cualquier sistema Unix. 
+Cuando en unix invocas `sh` estás usando el "Shell de Bourne", que fue el que reemplazó al Shell de Thompson. Normalmente este shell se encuentra en `/bin/sh` en cualquier sistema Unix. 
 
 `bash` escrito por Brian Fox para el proyecto GNU, y el nombre viene de "Bourne Again Shell".
 
@@ -410,7 +410,7 @@ Para generar las claves se usa el comando `ssh-keygen` que las deja en la carpet
 
 Las claves SSH son usadas también en GIT como veremos más adelante.
 
-### TR, SED, DIFF, SORT, UNIQ y AWK.
+### SORT, UNIQ, DIFF, TR, SED y AWK.
 
 La guía [roadmap.sh](https://roadmap.sh/backend) menciona a `sed` y `awk` como dos comandos útiles que deberíamos dominar. Pero vamos a incorporar algunos pocos más que son muy útiles en mi opinión.
 
@@ -447,64 +447,6 @@ El comando `diff` permite comparar archivos, por ejemplo:
 
 ```bash
 % diff index.md index.md.bak
-% diff index.md index.md.bak
-115c115
-< Cuando en unix invocas `sh` estás usando el "Shell de Thompson", que fue el que reemplazó al Shell de Thompson. Normalmente este shell se encuentra en `/bin/sh` en cualquier sistema Unix.
----
-> Cuando en unix invocas `sh` estás usando el "Shell de Bourne", que fue el que reemplazó al Shell de Thompson. Normalmente este shell se encuentra en `/bin/sh` en cualquier sistema Unix.
-117c117
-< `bash` escrito por Brian Fox para el proyecto GNU, y el nombre viene de "Thompson Again Shell".
----
-> `bash` escrito por Brian Fox para el proyecto GNU, y el nombre viene de "Bourne Again Shell".
-...
-```
-
-La salida de `diff` nos muestra sólo aquellas lineas que difieren entre sí. Las lineas que empiezan con `<` son la linea como está en el archivo de la izquierda y las que empiezan con `>` corresponden a las lineas del archivo de la derecha. 
-
-`sort` ordena lexicográficamente su entrada estándar. `uniq` filtra las lineas repetidas adyacentes de un archivo (si este está previamente ordenado).
-
-`awk` es un lenguaje de programación de dominio específico, muy poderoso escrito por Alfred Aho, Peter Weinberger y Brian Kernighan. Dominarlo es muy útil, pero para hacerle justicia tendría que escribir una serie completa de artículos. 
-
-Pero para darles una idea del poder de combinar todos estos comandos les mostraré esta secuencia de comandos:
-
-```bash
-% cat index.md | tr ' ' '\n' | sort | uniq -c | awk '$1>max && $2 != WS {max = $1; max_word=$2} END {print max_word " @ " max; }'
-de @ 113
-```
-
-Esta nos permite encontrar la palabra más frecuente en el archivo `index.md`. En este caso la palabra `de` con 113 ocurrencias.
-
-## Referencias
-
-Este artículo sólo tiene una pincelada muy por encima de todos estos comandos, hay muchos más y además cada uno de estos comandos tiene diversas opciones que no hemos explorado.
-
-¿Donde pueden aprender más?
-
-Una buena guía es ["Unix in a Nutshell"](https://amzn.to/2PpU3Ai) de Arnold Robins, aparte de mostar los comandos, describe varios entornos Unix, los principales editores (como Vi y Emacs), y los gestores de paquetes. Es una guía muy recomendada para profundizar sobre el entorno Unix y sus comandos.
-
-No puedo dejar de mencionar las referencias "clásicas":
-
-- ["The Unix Programming Environment"](https://amzn.to/3aDSFRI)  de Kernighan y Pike. 
-
-![](unix-book.jpg)
-
-- ["The AWK Programming Language"](https://amzn.to/3dLZvGV) de sus autores originales.
-
-![](awk-book.jpg)
-
-## Fin de una etapa
-
-Ya podemos tachar completamente la estación sobre conocimiento general de sistemas operativos en nuestro roadmap:
-
-![](roadmap.png)
-
-En la continuación de nuestra serie entraremos en uno de mis tópicos favoritos, los lenguajes de programación.
-
-Gracias por tu lectura, te espero en un próximo artículo de esta serie.
-
-Si te gustó este contenido y quieres apoyar una futura publicación de este material como libro, puedes apoyarme con tu aporte en mi cuenta de Ko-Fi, haciendo click en el botón de abajo:
-
-{{< koffe >}}
 
 
 [^1]: Las ilustraciones de esta parte vienen de este excelente artículo, donde pueden aprender más detalles del diseño y evolución de los terminales: http://www.linusakesson.net/programming/tty/
