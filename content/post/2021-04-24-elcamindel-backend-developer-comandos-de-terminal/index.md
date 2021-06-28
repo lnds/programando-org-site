@@ -33,7 +33,7 @@ Ha llegado el momento de terminar esta etapa de nuestro [roadmap](/blog/2020/07/
 
 La guía provista por [roadmap.sh](https://roadmap.sh/backend) nos dice que deberíamos tener un conocimiento del uso del terminal y de los comandos más básicos del terminal. Entonces ese será el foco de este artículo.
 
-Pero antes, te recuerdo que si te gusta esta [serie de artículos](/category/backend-developer/) puedes patrocinarla a través de la plataforma [Ko-fi](ko-fi.com/lnds). Parte de los aportes se usarán para editar y publicar un libro que contenga el material de esta serie, más algo más.
+Pero antes, te recuerdo que si te gusta esta [serie de artículos](/category/backend-developer/) puedes patrocinarla a través de la plataforma [Ko-fi](https://ko-fi.com/lnds). Parte de los aportes se usarán para editar y publicar un libro que contenga el material de esta serie, más algo más.
 
 {{< koffe >}}
 
