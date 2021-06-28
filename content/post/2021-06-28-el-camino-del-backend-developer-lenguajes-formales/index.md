@@ -42,10 +42,11 @@ La guía provista por el sitio [roadmap.sh](https://roadmap.sh/backend) recomien
 En esta serie yo he asumido que ya sabes programar, incluso he usado Python, Javascript, Rust y C para demostrar los distintos conceptos abordando usando código. 
 Así que esta sección, dedicada a los lenguajes de programación, la usaremos para destacar las características especiales de cada uno. 
 
-Por otro lado, este primer artículo será una breve introducción teórica a los lenguajes formales, e introduciremos las gramáticas, y construiremos un pequeño "parser".
+Este primer artículo de esta sección será una breve introducción teórica a los lenguajes formales, donde introduciremos las gramáticas y construiremos un pequeño "parser".
+
 En el segundo artículo de esta sección veremos los principales paradigmas de programación que existen. Y luego revisaremos los lenguajes propuestos por [roadmap.sh](https://roadmap.sh/backend) y algunos más que me parecen interesantes.
 
-# Lenguajes y lenguajes de programación
+# Lenguajes 
 
 El lenguaje, así en general, es para mi la tecnología de la información más antigua. Algunos historiadiores y antropólogos posicionan la invención del lenguaje como el hito más importante de nuestra evolución como especie. Gracias al lenguaje hemos podido asociarnos y cooperar entre nosotros, primero como pequeños grupos, luego como tribus hasta desarrollar complejas sociedades.
 
