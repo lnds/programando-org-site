@@ -29,7 +29,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-Sin darme cuenta han pasado dos meses desde que escribí el [último post](/blog/2021/04/24/el-camino-del-backend-developer-comandos-de-terminal/) de esta [serie](https://www.programando.org/category/backend-developer/). ¡Vamos a remediar esta situación de inmediato!.
+Sin darme cuenta han pasado dos meses desde que escribí el [último post](/blog/2021/04/24/el-camino-del-backend-developer-comandos-de-terminal/) de esta [serie](https://www.programando.org/category/backend-developer/). ¡Vamos a remediar esta situación de inmediato!
 Nos pondremos al día con uno de los aspectos en la formación de un desarrollador backend que más me gusta: los lenguajes de programación.
 
 Repasemos nuestro roadmap:
@@ -40,7 +40,7 @@ En la figura he tachado lo que hemos recorrido hasta ahora. A partir de este art
 
 La guía provista por el sitio [roadmap.sh](https://roadmap.sh/backend) recomienda primero aprender ciertos conceptos básicos y luego aprender algún lenguaje. 
 
-En esta serie yo he asumido que ya sabes programar, incluso he usado Python, Javascript, Rust y C para demostrar los distintos conceptos abordando usando código. 
+En esta serie yo he asumido que ya sabes programar, incluso he usado Python, Javascript, Rust y C para demostrar los distintos conceptos abordados usando código. 
 Así que esta sección, dedicada a los lenguajes de programación, la usaremos para destacar las características especiales de cada uno. 
 
 Este primer artículo de esta sección será una breve introducción teórica a los lenguajes formales, donde introduciremos las gramáticas y construiremos un pequeño "parser".
@@ -49,7 +49,7 @@ En el segundo artículo de esta sección veremos los principales paradigmas de p
 
 # Lenguajes 
 
-El lenguaje, así en general, es para mi la tecnología de la información más antigua. Algunos historiadiores y antropólogos posicionan la invención del lenguaje como el hito más importante de nuestra evolución como especie. Gracias al lenguaje hemos podido asociarnos y cooperar entre nosotros, primero como pequeños grupos, luego como tribus hasta desarrollar complejas sociedades.
+El lenguaje, así en general, es para mi la tecnología de la información más antigua. Algunos historiadores y antropólogos posicionan la invención del lenguaje como el hito más importante de nuestra evolución como especie. Gracias al lenguaje hemos podido asociarnos y cooperar entre nosotros, primero como pequeños grupos, luego como tribus hasta desarrollar complejas sociedades.
 
 El lenguaje que usamos para comunicarnos, ya sea de forma hablada o escrita lo conocemos como **lenguaje natural**. Pero los seres humanos hemos creado otros lenguajes para comunicarnos o expresarnos (como el lenguaje musical, por ejemplo).
 
