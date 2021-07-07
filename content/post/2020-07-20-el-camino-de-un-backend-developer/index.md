@@ -42,8 +42,7 @@ De acuerdo a este mapa de competencias, para ser un desarrollador backend modern
 
 Interesante pregunta, pero la respuesta no es sencilla. Pero veamos que podemos hacer.
 
-No voy a entrar a explicar todos los conceptos necesarios para entender cómo funcionan las redes. Tampoco explicaré qué son los protocolos de redes. Hay libros, y videos, y miles de posts que explican cómo funcionan las redes en general. Asumiremos
-que entienden lo básico, y si no, es la oportunidad de investigar estos temas.
+No voy a entrar a explicar todos los conceptos necesarios para entender cómo funcionan las redes. Tampoco explicaré qué son los protocolos de redes. Hay libros, y videos, y miles de posts que explican cómo funcionan las redes en general. Asumiremos que entienden lo básico, y si no, es la oportunidad de investigar estos temas.
 
 Para efectos de este ejercicio me basaré en este video:
 
@@ -71,7 +70,7 @@ Cada servicio en internet es una pieza de software que se ejecuta en un "host", 
 
 Por ahora `echo` es un servicio que publicaremos en nuestro computador local, también conocido como localhost, cuya dirección es 127.0.0.1. Pero atención, esta dirección IP en particular es una referencia local, siempre se refiere a la máquina donde estás trabajando.  Más adelante veremos como publicar nuestro servicio y darle una dirección IP real que puedan usar otros.
 
-Cómo en un host pueden haber muchos servicios ejecutándose, cada uno usa una puerta (port), que es un número, normalmente solicitado al sistema operativo, y por donde se publica el servicio. Más adelante, cuando revisemos otros conceptos (como hosting) vanmos a profundizar en todo esto.
+Cómo en un host pueden haber muchos servicios ejecutándose, cada uno usa una puerta (port), que es un número, normalmente solicitado al sistema operativo, y por donde se publica el servicio. Más adelante, cuando revisemos otros conceptos (como hosting) vamos a profundizar en todo esto.
 
 Por ahora, sólo nos interesa saber que un servicio tiene una dirección IP (127.0.0.1 por ahora) y un puerto (usaremos el 12345).
 
@@ -79,7 +78,7 @@ Para crear nuestro servicio usaremos el lenguaje Python.
 
 Para permitir la comunicación en internet, hace muchos años atrás se invento una abstracción de programación muy útil llamada socket[^1].
 
-El concepto de socket fue introducido en Unix BSD 2.1. Este modelo nos permite tratar la capa de red como si fueran archivos estándares de Unix. Para usarlos en python debemos usar la biblioteca sockets.
+El concepto de socket fue introducido en Unix BSD 2.1. Este modelo nos permite tratar la capa de red como si fueran archivos estándares de Unix. Para usarlos en Python debemos usar la biblioteca sockets.
 
 Como vamos a crear un servidor lo que necesitamos crear un socket y para eso hacemos lo siguiente:
 
@@ -92,12 +91,11 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 Lo que hacemos acá es crear un socket, que guardamos en la variable `sock`, y que soporta el protocolo [IPV4](https://es.wikipedia.org/wiki/IPv4), esto se logra al usar la constante `socket.AF_INET` como el primer argumento en la llamada a `socket.socket`, si quisieramos usar el protocolo [IPV6](https://es.wikipedia.org/wiki/IPv6) podemos usar la constante `socket.AF_INET6`. El protocolo IP es el protocolo de red básico en internet. Por supuesto se pueden abrir sockets que usen otros protocolos de red.
 
-El segundo argumento define el tipo de socket que usaremos, en este caso `socket.SOCK_STREAM`. Los sockets de este tipo garantizan que el despacho de los datos respetar'a el orden en que se envíen y no se perderán los paquetes. Por ejemplo, si enviamos "A", "B" y "C", a través de la red la secuencia se mantendrá y en el otro extremo de la red llegará "A", "B", y "C". Este tipo de sockets usa el protocolo TCP para garantizar esto. Para entender qué es TCP sugiero partir por esta entrada en Wikipedia: https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n. Hay otro protocolo, como [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario), que no brinda estas garantías, pero no nos serviría para este ejercicio. Para profundizar sobre la familia de protocolos en internet puedes partir por este enlace en wikipedia: https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet.
+El segundo argumento define el tipo de socket que usaremos, en este caso `socket.SOCK_STREAM`. Los sockets de este tipo garantizan que el despacho de los datos respetara el orden en que se envíen y no se perderán los paquetes. Por ejemplo, si enviamos "A", "B" y "C", a través de la red la secuencia se mantendrá y en el otro extremo de la red llegará "A", "B", y "C". Este tipo de sockets usa el protocolo TCP para garantizar esto. Para entender qué es TCP sugiero partir por esta entrada en Wikipedia: https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n. Hay otro protocolo, como [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario), que no brinda estas garantías, pero no nos serviría para este ejercicio. Para profundizar sobre la familia de protocolos en internet puedes partir por este enlace en wikipedia: https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet.
 
 Continuemos.
 
-Para poder usar este socket debemos asociarlo a una dirección asociada a nuestro host. Esto se hace mediante
-la primitiva `bind()` (enlazar). Esto se logra con este código:
+Para poder usar este socket debemos asociarlo a una dirección asociada a nuestro host. Esto se hace mediante la primitiva `bind()` (enlazar). Esto se logra con este código:
 
 ```python
 server_address = ('localhost', 12345)
@@ -116,7 +114,7 @@ while True:
     process_connection(connection, client_address)
 ```
 
-Cuando un cliente establece una conexión a nuestro servidor, usando el port público, se produce una negociación entre el cliente y el servidor y producto de esta se se crea una nueva conexión (que se deja en la variable `connection`) en un nuevo port, que es asignado por el kernel del sistema operativo. Desde ese punto el resto de la comunicación entre nuestro servidor y el cliente se realizará a través de ese nuevo puerto. La variable `connection` es en realidad un nuevo socket.
+Cuando un cliente establece una conexión a nuestro servidor, usando el port público, se produce una negociación entre el cliente y el servidor y producto de esta se crea una nueva conexión (que se deja en la variable `connection`) en un nuevo port, que es asignado por el kernel del sistema operativo. Desde ese punto el resto de la comunicación entre nuestro servidor y el cliente se realizará a través de ese nuevo puerto. La variable `connection` es en realidad un nuevo socket.
 
 Es decir, el puerto 12345 es nuestra puerta de acceso pública, pero después, el resto de la comunicación se ejecuta en otro puerto que se asigna temporalmente mientras dure la ejecución del servicio.
 
@@ -258,7 +256,7 @@ y abriremos otra ventana, donde ejecutaremos nuestro cliente:
 python socket_client.py "hola mundo"
 ```
 
-si todo sale bien en la ventana del cliente deberiamos ver el texto que pasemos como argumento del cliente, en este caso `hola mundo`.
+Si todo sale bien en la ventana del cliente deberiamos ver el texto que pasemos como argumento del cliente, en este caso `hola mundo`.
 
 
 Con esto hemos creado un cliente y un sevidor de internet, completando el primer peldaño en este camino a convertirnos en un desarrolador backend. 
