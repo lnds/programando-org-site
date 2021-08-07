@@ -5,7 +5,7 @@ title: "El Camino Del Backend Developer: Lenguajes Formales"
 subtitle: ""
 summary: ""
 authors: ['Eduardo Díaz']
-tags: [aprendizaje, roadmaps, competencias, unix, sistemas, 'sistemas operativos', backend, archivos, comandos, shell, awk, sed, grep, terminal, consola]
+tags: [aprendizaje, roadmaps, competencias, lenguajes, 'lenguajes formales']
 categories: ['backend developer']
 date: 2021-06-28T12:33:31-04:00
 lastmod: 2021-06-28T12:33:31-04:00
