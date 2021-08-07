@@ -19,7 +19,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  position: 3
+  placement: 3
 
 
 # Projects (optional).
@@ -30,13 +30,15 @@ image:
 projects: []
 ---
 
-Hace unos años atrás di una charla en Starsconf llamada ["Esos Raros Lenguajes Nuevos"](https://www.youtube.com/watch?v=Hp9HwLPYkjI)[^1], creo que es la presentación más divertida que he hecho. El tema principal de esa charla es la idea de que es positivo para todo programador aprender otros lenguajes de programación.
+Hace unos años atrás presenté una charla en [Starsconf](https://www.starsconf.com) titulada ["Esos Raros Lenguajes Nuevos"](https://www.youtube.com/watch?v=Hp9HwLPYkjI)[^1], creo que es la presentación más divertida que he hecho. 
 
-En particular, recomiendo lo que algunos llaman los lenguajes de Perlis[^2]. Este concepto nace de una frase de Alan Perlis que dice:
+El tema principal es la idea de lo positivo que aprender otros lenguajes de programación distintos al que usas en el día a día en tu trabajo.
+
+En particular, recomiendo aprender lo que algunos llaman los lenguajes de Perlis[^2]. Este concepto nace de una frase de Alan Perlis que dice:
 
     A language that doesn’t affect the way you think about programming is not worth knowing. — Alan Perlis
 
-De todas maneras todos los programadores somos programadores políglota.
+De todas maneras todos los programadores somos programadores políglotas.
 
 ## El Programador Políglota
 
@@ -53,19 +55,19 @@ Por ejemplo, un programador full-stack en una aplicación web típca podría tra
 - JSON
 - Etc.
 
-Cuando explico esto no falta el troll que dice que HTML y CSS no son lenguajes de programación, pero yo no he dicho que estos sean lenguajes de programación[^3].
+Cuando explico esto no falta quien dice que HTML y CSS no son lenguajes de programación, pero yo no he dicho que estos sean lenguajes de programación[^3].
 
-Si recuerdan en nuestro anterior artículo introducimos el concepto de [Lenguajes Formales](/blog/2021/06/28/el-camino-del-backend-developer-lenguajes-formales/).
+Si recuerdan bien, en nuestro anterior artículo introducimos el concepto de [Lenguajes Formales](/blog/2021/06/28/el-camino-del-backend-developer-lenguajes-formales/).
 
-Todos estos lenguajes que usamos al programar son **lenguajes formales**, pero son lenguajes de distintos tipos.
+Todos estos lenguajes que usamos al programar son **lenguajes formales**, pero de distintos tipos.
 
-Por ejemplo, casi todos los lenguajes que terminan en ML son _"Markups Lenguajes"_, lenguajes de marcado, y se refieren a lenguajes formales que permiten incorporar etiquetas o marcas, las que son interpretadas desspués por un programa que procesa los archivos escritos en estos lenguajes. Al interpretar estos archivos las marcas indican como procesarlos, típicamente para formatear el contenido. 
+Por ejemplo, casi todos los lenguajes que terminan en ML son _"Markups Lenguajes"_, lenguajes de marcado. Estos son  lenguajes formales que permiten incorporar etiquetas o marcas, las que son interpretadas por los programas que procesan los archivos escritos en estos lenguajes. Al interpretar estos archivos las marcas dirigen la traducción, típicamente para formatear el contenido. 
 
-Decimos que los lenguajes de marcado nos permiten estructurar datos. Es por eso que los usamos para compartir información, por ejemplo cuando los usamos para "serializar" datos para ser enviados usando un protocolo como http, los ejemplos clásicos son XML o JSON.
+Por otro lado, algunos lenguajes de marcado nos permiten estructurar datos. Es por eso que los usamos para compartir información, por ejemplo cuando los usamos para "serializar" datos a través de un protocolo como HTTP, los ejemplos clásicos son XML o JSON.
 
 Y están los lenguajes de programación propiamente tal, como Java o SQL.
 
-En esta serie de artículos vamos a decir que un lenguaje de programación es un lenguaje formal que nos permite expresar una computación o algoritmo.
+Vamos a decir que un lenguaje de programación es un lenguaje formal que nos permite expresar una computación o algoritmo.
 
 O en otras palabras, son los lenguajes con los que escribimos programas, y los programas son un conjunto de instrucciones que permiten que un computador ejecute algún tipo de computación.
 

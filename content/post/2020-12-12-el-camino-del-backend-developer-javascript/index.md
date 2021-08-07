@@ -19,7 +19,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  position: 3
+  placement: 3
  
 # Projects (optional).
 #   Associate this post with one or more of your projects.

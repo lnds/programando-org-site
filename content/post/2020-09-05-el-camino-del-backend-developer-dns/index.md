@@ -16,7 +16,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  position: 3
+  placement: 3
 ---
 
 Continuemos nuestro camino por la ruta del [backend developer](/categories/backend-developer/), donde estamos siguiendo la recomendación del sitio [roadmap.sh](https://roadmap.sh/), sobre las competencias básicas que debería tener un desarrollador backend en 2020.

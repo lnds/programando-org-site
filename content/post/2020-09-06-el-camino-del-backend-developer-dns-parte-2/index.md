@@ -16,7 +16,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  position: 3
+  placement: 3
 ---
 
 En muchos computadores modernos que usan algún sistema operativo basado en Unix existe un archivo llamado `hosts`. Normalmente se encuentra ubicado en el directorio `/etc/`. Si yo ejecuto el comando `cat /etc/hosts` en mi computador obtengo esto:

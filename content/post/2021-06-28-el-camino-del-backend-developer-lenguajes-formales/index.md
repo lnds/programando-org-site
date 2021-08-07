@@ -18,9 +18,9 @@ math: true
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "center"
   preview_only: false
-  position: 3
+  placement: 3
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

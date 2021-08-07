@@ -16,7 +16,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  position: 3
+  placement: 3
 ---
 Este es el cuarto capítulo de esta serie que he titulado "El camino del backend developer".
 

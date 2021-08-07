@@ -19,7 +19,7 @@ image:
   caption: "By Peter Hamer - Ken Thompson (sitting) and Dennis Ritchie at PDP-11Uploaded by Magnus Manske, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=24512134"
   focal_point: ""
   preview_only: false
-  position: 3
+  placement: 3
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
