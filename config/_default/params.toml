@@ -57,7 +57,7 @@ description = ""
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r", "python", "c", "cpp", "kotlin", "rust", "java", "php"]  # Add support for highlighting additional languages
+highlight_languages = ["r", "python", "c", "cpp", "kotlin", "rust", "java", "php", "fortran", "lisp", "clojure"]  # Add support for highlighting additional languages
 highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
