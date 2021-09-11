@@ -217,7 +217,7 @@ Vamos a mostrar como funciona todo esto escribiendo un intérprete muy sencillo 
 
 ## Un interprete de LISP
 
-Vamos a aplicar parte de [los conocimientos adquiridos](/blog/2021/06/28/el-camino-del-backend-developer-lenguajes-formales/) para interpretar la sintáxis de nuestro mini lenguaje.
+Vamos a aplicar parte de [los conocimientos adquiridos](/blog/2021/06/28/el-camino-del-backend-developer-lenguajes-formales/) para interpretar la sintaxis de nuestro mini lenguaje.
 
 En LISP todo se expresa como listas que se encuentra encerradas por paréntesis, del siguiente modo:
 

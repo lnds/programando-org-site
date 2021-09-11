@@ -86,7 +86,7 @@ Veamos un ejemplo[^1], definamos el lenguaje $L$ de la siguiente forma:
 
 Con estas reglas tenemos que la cadena "23+4=555" pertenece a $L$ mientras que la cadena "=234=+", no.
 
-El lenguaje $L$ definido de esta forma expresa a los números naturales, las adiciones "bien formadas" y las igualdades entre adiciones bien formadas. Sin embargo describe la forma en que estas expresiones se ven, es decir, su **sintáxis**, pero no su sentido o significado, en otras palabras, no define su **semántica**.
+El lenguaje $L$ definido de esta forma expresa a los números naturales, las adiciones "bien formadas" y las igualdades entre adiciones bien formadas. Sin embargo describe la forma en que estas expresiones se ven, es decir, su **sintaxis**, pero no su sentido o significado, en otras palabras, no define su **semántica**.
 
 La teoría de lenguajes formales se hace cargo del problema de especificar un lenguaje formal mediante el uso de las **"Gramáticas Formales"**.
 

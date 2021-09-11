@@ -43,7 +43,7 @@ Hasta ahora en todos los artículos previos he usado el término [URL](https://e
 
 URL viene de Uniform Resource Locator (localizador de recursos uniforme),y fueron introducidos por [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) cuando diseño la Web. Fueron formalizados en el documento [RFC-1738](https://tools.ietf.org/html/rfc1738) de 1994[^0].  
 
-Las URL son un tipo especial de URI (Uniform Resource Identifier), que es simplemente una cadena de caracteres que permite identificar de manera única un recurso. Para garantizar la uniformidad todas las URIs siguen una determinada sintáxis.
+Las URL son un tipo especial de URI (Uniform Resource Identifier), que es simplemente una cadena de caracteres que permite identificar de manera única un recurso. Para garantizar la uniformidad todas las URIs siguen una determinada sintaxis.
 
 Un tipo de URI son los URNs (Uniform Resource Name) que se usa para identificar recursos por un nombre en un espacio de nombres particulares. 
 

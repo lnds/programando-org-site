@@ -43,7 +43,7 @@ Cuando tenía catorce o quince años, en la década de los 1980's, leía sobre l
 
 El equipo venía con un manual, pero claro, no lo leí. Impacientemente encendí el televisor conecté el pequeño ordenador y esperé. Apareció un cuadrado que pulsaba y escribí alguna orden y por supuesto no pasó nada. Tenía que leer el manual para aprender a usar esa cosa. Poco tiempo después me inscribí en un taller de computación en mi colegio y empecé a aprender.
 
-Ese computador tenía un sistema operativo muy primitivo, en esencia el sistema operativo era un interprete de BASIC, que se cargaba desde la ROM del equipo. Había un comando load (no recuerdo muy bien la sintáxis) que permitía cargar programas desde una cassette de audio. Lo otro que podías hacer era escribir comandos o programas en BASIC. 
+Ese computador tenía un sistema operativo muy primitivo, en esencia el sistema operativo era un interprete de BASIC, que se cargaba desde la ROM del equipo. Había un comando load (no recuerdo muy bien la sintaxis) que permitía cargar programas desde una cassette de audio. Lo otro que podías hacer era escribir comandos o programas en BASIC. 
 
 
 ## Programas 

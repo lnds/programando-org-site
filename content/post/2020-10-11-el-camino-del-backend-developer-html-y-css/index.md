@@ -209,7 +209,7 @@ Antes de HTML5 (y aún hoy es permitido), la página ejemplo se habría descrito
 
 El problema es que la etiqueta `div` no proporciona información semántica, como sí la puede proporcionar `section`, y esa es una gran diferencia que introduce HTML-5, el concepto de HTML Semántico.
 
-El objetivo del HTML Semántico es ayudar a navegadores y otros agentes a "entender" el contenido de los documentos web. En HTML histórico existían elementos que se preocupaban de la sintáxis y otros de la presentación (layout).
+El objetivo del HTML Semántico es ayudar a navegadores y otros agentes a "entender" el contenido de los documentos web. En HTML histórico existían elementos que se preocupaban de la sintaxis y otros de la presentación (layout).
 
 Por ejemplo, la etiqueta `<center>` era usada para mostrar texto centrado en pantalla. O la etiqueta `<i>` para representar texto en itálica. Hoy se prefiere usar la etiqueta `<em>` para dar énfasis a un texto y su representación se deja la hoja de estilo CSS.
 

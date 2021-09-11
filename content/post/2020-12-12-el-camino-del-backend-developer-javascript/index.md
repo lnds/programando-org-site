@@ -55,13 +55,13 @@ Y ese "run everywhere" incluía la capacidad de ejecutar programas escritos en J
 [^2]: En 1997 el 75% de los servidores usaban Sun Solaris y nadie lo sabía (fuente: https://kickstartall.com/documents/KS_Articles/Sun.html).
 
 
-Tal como expliqué la idea original era migrar [Scheme](https://es.wikipedia.org/wiki/Scheme), un gran lenguaje de la familia LISP al browser, pero al parecer los ejecutivos de Sun prefirieron sumarse al momemtum que generaba la campaña de marketing de Sun[^3] y decidieron nombrar al lenguaje como JavaScript. Junto con esto se realizó un cambio de sintáxis para hacerla más parecida a Java.
+Tal como expliqué la idea original era migrar [Scheme](https://es.wikipedia.org/wiki/Scheme), un gran lenguaje de la familia LISP al browser, pero al parecer los ejecutivos de Sun prefirieron sumarse al momemtum que generaba la campaña de marketing de Sun[^3] y decidieron nombrar al lenguaje como JavaScript. Junto con esto se realizó un cambio de sintaxis para hacerla más parecida a Java.
 
 [^3]: En un momento Sun llegó a comprometer inversiones por 500 millones de dólares en marketing para promover el uso de Java (https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/).
 
 En su corazón JavaScript tenía los principios funcionales de Scheme, pero adoptó el paradigma basado en prototipos, que es una forma más pura de orientación a objetos, que el paradigma basado en clases. 
 
-Esta mezcla, y quizás la presión para salir rápido con este producto, generó ciertas decisiones extrañas que afectan aún la sintáxis y sobre todo la semántica de los programas escritos en JavaScript, y que  ha sido fuente de dolores de cabeza, memes y graciosas charlas: https://www.destroyallsoftware.com/talks/wat
+Esta mezcla, y quizás la presión para salir rápido con este producto, generó ciertas decisiones extrañas que afectan aún la sintaxis y sobre todo la semántica de los programas escritos en JavaScript, y que  ha sido fuente de dolores de cabeza, memes y graciosas charlas: https://www.destroyallsoftware.com/talks/wat
 
 De todas maneras, JavaScript se ha convertido en un importante lenguaje, tanto en front como en backend (este aspecto lo veremos más adelante cuando estudiemos Node.js). Si uno es suficientemente disciplinado y sigue consejos de gente con experiencia, como por ejemplo, las guias que plantea Douglas Crockford en su libro ["JavaScript: The Good Parts"](https://amzn.to/346dLF4).
 

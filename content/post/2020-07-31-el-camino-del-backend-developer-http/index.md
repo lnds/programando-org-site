@@ -74,7 +74,7 @@ Hoy en día con las aplicaciones multimedias esta capa es esencial.
 
 Acá nos preocupamos de la representación de la información, para que los distintos equipos, que pueden tener representanciones internas distintas de la información, reconozcan la data que reciben.
 
-Esta es la primera capa que trabaja con el contenido de la información que se comunica. Acá se ve la sintáxis y la semántica de los datos transmitidos. Acá podemos cifrar y comprimir los datos. 
+Esta es la primera capa que trabaja con el contenido de la información que se comunica. Acá se ve la sintaxis y la semántica de los datos transmitidos. Acá podemos cifrar y comprimir los datos. 
 
 ### Capa 7: Aplicación
 
