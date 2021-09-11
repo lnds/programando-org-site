@@ -48,7 +48,7 @@ Las URL son un tipo especial de URI (Uniform Resource Identifier), que es simple
 Un tipo de URI son los URNs (Uniform Resource Name) que se usa para identificar recursos por un nombre en un espacio de nombres particulares. 
 
 
-Por ejemplo, la primera edición de mi libro ["La Naturaleza del Software"](https://www.amazon.com/-/es/Naturaleza-del-Software-Spanish-ebook/dp/B00GF0FV1C/ref=cm_cr_arp_d_product_top?ie=UTF8) tiene el ISBN (International Standar Book Number) 978-956-353-640-9, que es un número de serie universal que se da a cada edición de libros en el planeta. Para expresarlo en notación URN usaríamos esta sintáxis: 
+Por ejemplo, la primera edición de mi libro ["La Naturaleza del Software"](https://www.amazon.com/-/es/Naturaleza-del-Software-Spanish-ebook/dp/B00GF0FV1C/ref=cm_cr_arp_d_product_top?ie=UTF8) tiene el ISBN (International Standar Book Number) 978-956-353-640-9, que es un número de serie universal que se da a cada edición de libros en el planeta. Para expresarlo en notación URN usaríamos esta sintaxis: 
 
         urn:isbn:978-956-353-640-9
 
