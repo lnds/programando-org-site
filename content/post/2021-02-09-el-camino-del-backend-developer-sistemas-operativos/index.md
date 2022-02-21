@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: Sistemas Operativos"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, c, sistemas, 'sistemas operativos', backend]
 categories: ['backend developer']
 date: 2021-02-09T22:32:52-03:00

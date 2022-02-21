@@ -4,7 +4,7 @@
 title: "Juguemos Poker (Segunda Parte)"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: []
 categories: []
 date: 2020-01-05T20:40:39-03:00

@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: JavaScript"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: [internet, aprendizaje, roadmaps, competencias, html, css, frontend]
 categories: ['backend developer']
 date: 2020-12-12T09:31:06-03:00

@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: Hilos y Concurrencia"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, c, sistemas, 'sistemas operativos', backend, hilos, concurrencia]
 categories: ['backend developer']
 date: 2021-02-20T12:21:45-03:00

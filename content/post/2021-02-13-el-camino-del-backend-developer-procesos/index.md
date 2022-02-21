@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: Procesos"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, c, sistemas, 'sistemas operativos', backend]
 categories: ['backend developer']
 date: 2021-02-13T10:31:30-03:00

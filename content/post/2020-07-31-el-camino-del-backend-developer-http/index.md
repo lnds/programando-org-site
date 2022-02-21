@@ -4,7 +4,7 @@ date: 2020-07-31T14:41:30-04:00
 draft: false
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [internet, aprendizaje, roadmaps, competencias, redes, protocolos, osi]
 categories: ['backend developer']
 featured: true

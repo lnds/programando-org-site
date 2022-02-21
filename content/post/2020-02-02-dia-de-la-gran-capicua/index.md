@@ -5,7 +5,7 @@ title: "Felíz Día De La Gran Capicúa"
 subtitle: "Nuevo desafío"
 summary: ""
 slug: "feliz-dia-de-la-gran-capicua"
-authors: []
+authors: [admin]
 tags: [capicúas, desafíos, fechas]
 categories: []
 date: 2020-02-02T11:32:04-03:00

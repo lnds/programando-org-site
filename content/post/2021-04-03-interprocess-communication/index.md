@@ -4,7 +4,7 @@
 title: "El Camino del Backend Developer: Interprocess Communication"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, python, sistemas, 'sistemas operativos', backend, pipes, 'queues', 'shared memory', procesos]
 categories: ['backend developer']
 date: 2021-04-03T11:00:00-03:00

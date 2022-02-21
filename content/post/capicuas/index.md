@@ -4,7 +4,7 @@
 title: "Desafío: Capicúas"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: [desafios, capicúas, palindromes, desafio20200119, palindromes]
 categories: [desafíos]
 date: 2020-01-19T12:01:12-03:00

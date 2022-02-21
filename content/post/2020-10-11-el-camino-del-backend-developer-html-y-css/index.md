@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: HTML y CSS"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [internet, aprendizaje, roadmaps, competencias, html, css, frontend]
 categories: ['backend developer']
 date: 2020-10-11T11:29:48-03:00

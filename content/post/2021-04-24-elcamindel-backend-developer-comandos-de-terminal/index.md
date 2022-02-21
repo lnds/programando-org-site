@@ -4,7 +4,7 @@
 title: "El Camino del Backend Developer: Comandos de Terminal"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, unix, sistemas, 'sistemas operativos', backend, archivos, comandos, shell, awk, sed, grep, terminal, consola]
 categories: ['backend developer']
 date: 2021-04-24T12:48:10-04:00

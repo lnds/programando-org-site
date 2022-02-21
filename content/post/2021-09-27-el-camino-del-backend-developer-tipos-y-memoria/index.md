@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: Gestión de Tipos y Memoria"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: ['lenguajes dinámicos', 'lenguajes estáticos', 'danglinng pointers', 'memoria']
 categories: ['backend developer']
 date: 2021-09-27T11:59:23-03:00

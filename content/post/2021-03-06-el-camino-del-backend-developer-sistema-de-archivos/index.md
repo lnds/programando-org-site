@@ -4,7 +4,7 @@
 title: "El Camino Del Backend Developer: Sistemas de Archivos"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, c, sistemas, 'sistemas operativos', backend, archivos, 'sistemas de archivos', 'filesystem']
 categories: ['backend developer']
 date: 2021-03-06T10:57:51-03:00

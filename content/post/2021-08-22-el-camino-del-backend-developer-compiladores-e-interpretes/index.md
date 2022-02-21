@@ -4,7 +4,7 @@
 title: "El Camino del Backend Developer: Compiladores e Intérpretes"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, 'lenguajes de programación']
 categories: ['backend developer']
 date: 2021-08-22T12:59:24-04:00

@@ -4,7 +4,7 @@ date: 2020-08-19T12:41:30-04:00
 draft: false
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [internet, aprendizaje, roadmaps, competencias, browsers, navegadores]
 categories: ['backend developer']
 featured: true

@@ -4,7 +4,7 @@
 title: "Desafío Primes Crypto"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: [desafios, números primos, criptografía, desafio20191215]
 categories: [desafíos]
 date: 2019-12-15T13:55:06-03:00

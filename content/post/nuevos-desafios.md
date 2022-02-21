@@ -4,7 +4,7 @@
 title: "Nuevos Desafios"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: [desafíos, desafio20191208]
 categories: [desafíos]
 date: 2019-12-08T11:39:03-03:00

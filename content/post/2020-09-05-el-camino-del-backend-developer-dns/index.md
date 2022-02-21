@@ -4,7 +4,7 @@ date: 2020-09-05T10:41:30-04:00
 draft: false
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [internet, aprendizaje, roadmaps, competencias, dns, protocolos]
 categories: ['backend developer']
 featured: true

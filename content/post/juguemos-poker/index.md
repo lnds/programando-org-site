@@ -4,7 +4,7 @@
 title: "Juguemos Poker"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: []
 categories: []
 date: 2019-12-29T13:35:32-03:00

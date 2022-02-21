@@ -5,7 +5,7 @@ title: "Soluciones"
 slug: "soluciones"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: []
 categories: []
 date: 2020-02-09T08:02:05-03:00

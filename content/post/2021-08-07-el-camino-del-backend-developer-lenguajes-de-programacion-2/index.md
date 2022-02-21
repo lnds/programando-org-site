@@ -4,7 +4,7 @@
 title: "El Camino del Backend Developer: Lenguajes de Programación"
 subtitle: ""
 summary: ""
-authors: ['Eduardo Díaz']
+authors: [admin]
 tags: [aprendizaje, roadmaps, competencias, 'lenguajes de programación']
 categories: ['backend developer']
 date: 2021-08-07T11:48:50-04:00
