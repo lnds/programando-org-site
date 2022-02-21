@@ -1,0 +1,77 @@
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/getting-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+title: La Sombra de Dijkstra # Website name
+baseurl: 'https://programando.org/' # Website URL
+copyright: '&copy; Eduardo Díaz Cortés' # Footer text, e.g. '© {year} Me'
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: es
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## MODULES
+############################
+
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/kaushalmodi/hugo-atom-feed
+
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
+summaryLength: 20
+paginate: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  post: '/blog/:year/:month/:day/:slug'
+  event: '/talk/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+disableAliases: false
+outputs:
+  home: [] #[HTML, RSS, JSON, ATOM, WebAppManifest, headers, redirects]
+  section: [] #[HTML, RSS, ATOM]
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+timeout: 600000
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
+markup:
+  _merge: deep
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+  _merge: deep

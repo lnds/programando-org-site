@@ -1,9 +1,0 @@
-[submodule "themes/academic"]
-	path = themes/academic
-	url = https://github.com/gcushen/hugo-academic.git
-[submodule "themes/hyde-hyde"]
-	path = themes/hyde-hyde
-	url = https://github.com/htr3n/hyde-hyde.git
-[submodule "themes/hugo-atom-feed"]
-	path = themes/hugo-atom-feed
-	url = https://github.com/kaushalmodi/hugo-atom-feed.git
