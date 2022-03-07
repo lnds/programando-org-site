@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "El Camino Del Backend Developer: Control de Versiones"
+title: "El Camino del Backend Developer: Control de Versiones"
 subtitle: ""
 summary: ""
 tags: [aprendizaje, roadmaps, competencias, backend, git, github, 'control de versiones']
