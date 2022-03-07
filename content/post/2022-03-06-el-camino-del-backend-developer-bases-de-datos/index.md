@@ -124,13 +124,13 @@ Hay varios modelos para implementar los SGBD, algunos los mencionamos de pasada 
 
 El modelo relacional fue propuesto por Edgar F. Codd en 1969 y su propuesta se basa en el uso de la [lógica de primer orden](https://es.wikipedia.org/wiki/L%C3%B3gica_de_primer_orden). 
 
-![[Edgar_F_Codd.jpeg]]
+![](Edgar_F_Codd.jpeg)
 
 En este modelo los datos se representan en **tuplas** los que se pueden agrupar en relaciones.
 
 Este diagrama ayuda a clarificar estos conceptos:
 
-![[Conceptos_del_modelo_relacional.png]]
+![](Conceptos_del_modelo_relacional.png)
 
 La relación es una tabla donde cada columna es un atributo. El encabezado de la columna corresponde al nombre del atributo y en cada celda en el cuerpo de cada columna están los valores. Cada fila del cuerpo de la tabla es una tupla. El nombre de la tabla se conoce como variable de relación.
 
