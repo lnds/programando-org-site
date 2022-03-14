@@ -31,7 +31,7 @@ projects: []
 
 Continuando con nuestro recorrido por el ["roadmap para el desarrollador backend"](https://roadmap.sh/backend) exploraremos el capítulo sobre bases de datos.
 
-Antes de seguir quiero recordarte que si quieres apoyar [este proyecto](http://localhost:1313/category/backend-developer/) y su futura publicación como libro, puedes patrocinarme a través de la plataforma Ko-fi: https://ko-fi.com/lnds
+Antes de seguir quiero recordarte que si quieres apoyar [este proyecto](/category/backend-developer/) y su futura publicación como libro, puedes patrocinarme a través de la plataforma Ko-fi: https://ko-fi.com/lnds
 
 {{< koffe >}}
 
