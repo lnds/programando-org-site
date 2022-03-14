@@ -20,6 +20,8 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
+  placement: 3
+
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -29,9 +31,9 @@ image:
 projects: []
 ---
 
-Tal como prometimos en el artículo anterior de esta serie exploraremos las bases de datos NoSQL.
+Tal como prometimos en el [artículo anterior](/blog/2022/03/06/el-camino-del-backend-developer-bases-de-datos/) de [esta serie](/category/backend-developer/) exploraremos en esta oportunidad los gestores de datos NoSQL.
 
-Como siempre, aprovecho de recordarte que si quieres apoyar la futura publicación como libro de  [este proyecto](/category/backend-developer/) puedes patrocinarme a través de la plataforma Ko-fi: https://ko-fi.com/lnds
+Antes de empezar aprovecho de recordarte que si quieres apoyar la futura publicación como libro de  [este proyecto](/category/backend-developer/) puedes patrocinarme a través de la plataforma Ko-fi: https://ko-fi.com/lnds
 
 {{< koffe >}}
 
